@@ -1,2 +1,3 @@
 # myLeetCode
- My LeetCode Python
+
+This Zhenkang's LeetCode Repository by Python.
