@@ -11,37 +11,33 @@ class Solution:
         不是让你解数独，而是只是看看有没有明显错误（所谓的“有效”）
         答案写的挺好的，有用哈希表的，有用数组的
         感觉最好的是位运算，实现一下
-        Parameters
-        ----------
-        board : TYPE
-            DESCRIPTION.
-
-        Returns
-        -------
-        bool
-            DESCRIPTION.
 
         """
         # print(board)
-        row = int(0)
-        col = int(0)
-        box = int(0)
-        for i in range(10):
-            for j in range(10):
+        row = [int(0)] * 9
+        col = [int(0)] * 9
+        box = [int(0)] * 9
+        for i in range(9):
+            
+            for j in range(9):
                 
-                if (j/3 + i) - (j//3 + (i//3) * 3) == 0:
-                    print(i,j)
+                sectionNumber = int(j//3 + (i//3) * 3)
+                # if (j/3 + i) - sectionNumber == 0:
+                #     print(i,j)
                 
+                
+                if board[i][j] == '.':
+                    continue
                 val = int(board[i][j])
                 # print(val,board[i][j])
-                if val == '.':
-                    continue
-                if row >> val or col >> val or box >> val:
+                if row[i] >> val & 0b1 or col[j] >> val & 0b1 or box[sectionNumber] >> val & 0b1:
+                    # print(i,j,val,bin(row[i]),bin(col[j]),bin(box[sectionNumber]))
+                    # print(i,j,val,bin(row[i]>>val),bin(col[j]>>val),bin(box[sectionNumber]>>val))
                     return False
                 
-                row |= 1 << val
-                col |= 1 << val
-                box |= 1 << val
+                row[i] |= 1 << val
+                col[j] |= 1 << val
+                box[sectionNumber] |= 1 << val
 
         
         return True
@@ -52,7 +48,7 @@ if __name__ == '__main__':
     
     # input_List = [1,6,5,4,3,2,1]
     
-    input_List =[["5","3",".",".","7",".",".",".","."]
+    input_List =[["8","3",".",".","7",".",".",".","."]
             ,["6",".",".","1","9","5",".",".","."]
             ,[".","9","8",".",".",".",".","6","."]
             ,["8",".",".",".","6",".",".",".","3"]
