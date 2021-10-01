@@ -7,7 +7,9 @@ Created on Fri Oct  1 20:02:20 2021
 
 class Solution:
     def countAndSay(self, n: int) -> str:
-        
+        """
+        用时10min，就两个循环
+        """
         result = '1'
         for i in range(2,n+1):
             cnt = 0
