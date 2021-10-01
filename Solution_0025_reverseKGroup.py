@@ -47,11 +47,11 @@ if __name__ == '__main__':
     solu = Solution()
     # input_List = [4,5,6,7,0,1,2]
     # input_aim = 0
-    # n5 = ListNode(5)
-    # n4 = ListNode(4,n5)
-    # n3 = ListNode(3,n4)
-    # n2 = ListNode(2,n3)
-    n1 = ListNode(1)
+    n5 = ListNode(5)
+    n4 = ListNode(4,n5)
+    n3 = ListNode(3,n4)
+    n2 = ListNode(2,n3)
+    n1 = ListNode(1,n2)
 
     # result = solu.swapPairs(n1)
     result = solu.reverseKGroup(n1,1)
