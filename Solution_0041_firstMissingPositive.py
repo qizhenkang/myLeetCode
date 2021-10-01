@@ -15,7 +15,7 @@ class Solution:
         N = len(nums)
         for i in range(N):
             while 1 <= nums[i] <= N and nums[i] != nums[nums[i]-1]:
-                print(nums[i],nums[nums[i]-1])
+                # print(nums[i],nums[nums[i]-1])
                 temp = nums[nums[i]-1]
                 nums[nums[i]-1] = nums[i]
                 nums[i] = temp
