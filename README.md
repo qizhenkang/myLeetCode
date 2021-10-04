@@ -2,10 +2,10 @@
 
 This Zhenkang's LeetCode Repository(mainly by _Python_).
 
-## My Coding Record
-
 When I entered my Ph.D. career, I found that what I love is not researching, but programming.
 Therefore, I decided to start the journey of _LeetCode_, as a little source of happiness in my boring rearch life.
+
+## My Coding Record
 
 | Number |         Name         | Difficulty | State |    Time    | Classification |         Note         |
 | :----: | :------------------: | :--------: | :---: | :--------: | :------------: | :------------------: |
