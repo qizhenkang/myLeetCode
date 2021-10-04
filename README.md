@@ -7,6 +7,7 @@ Therefore, I decided to start the journey of _LeetCode_, as a little source of h
 
 ## My Coding Record
 
-| Number |         Name         | Difficulty | State |    Time    | Classification |         Note         |
-| :----: | :------------------: | :--------: | :---: | :--------: | :------------: | :------------------: |
-|  0482  | licenseKeyFormatting |    Easy    |  AC   | 2020/10/04 |     String     | Not Fully Understand |
+| Number |         Name         | Difficulty | State |    Time    | Classification |  Mastery   |
+| :----: | :------------------: | :--------: | :---: | :--------: | :------------: | :--------: |
+|   49   |    groupAnagrams     |   Medium   |  AC   | 2020/10/04 |      Hash      | ■■■■■■□□□□ |
+|  482   | licenseKeyFormatting |    Easy    |  AC   | 2020/10/04 |     String     | ■■■■□□□□□□ |
