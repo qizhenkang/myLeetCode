@@ -20,6 +20,9 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  284   |   PeekingIterator    |   Medium   |   [AC](./Solution_0284_PeekingIterator.py)    | 2021/10/05 |     Design     |    ★☆☆☆☆    |
 |  482   | licenseKeyFormatting |    Easy    | [AC](./Solution_0482_licenseKeyFormatting.py) | 2021/10/04 |     String     |    ★★☆☆☆    |
 
+
+
+
 [^1]: The current status of the question. AC: ACCEPT
 [^2]: The solved Time.
 [^3]: My own understanding score. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
