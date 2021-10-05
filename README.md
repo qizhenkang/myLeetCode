@@ -11,7 +11,7 @@ Therefore, I decided to start the journey of _LeetCode_, as a little source of h
 
 Some interesting Problems are listed. For searching and reviewing easily, the difficulty, status and addressed time are recorded.
 
-For example, the first recorded problem is **groupAnagrams**, whose difficulty is **Medium**. The time when got _accepted_ is _2021/10/04_. In the last column, my own understanding score on the problem are showed. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
+For example, the first recorded problem is **groupAnagrams**, whose difficulty is **Medium**. The time when got _accepted_ is _2021/10/04_. In the last column, my own understanding score on the problem are showed.
 
 | Number |         Name         | Difficulty |                  Status[^1]                   |  Time[^2]  | Classification | Mastery[^3] |
 | :----: | :------------------: | :--------: | :-------------------------------------------: | :--------: | :------------: | :---------: |
@@ -22,4 +22,4 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 
 [^1]: The current status of the question. AC: ACCEPT
 [^2]: The solved Time.
-[^3]: My own understanding score.
+[^3]: My own understanding score. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
