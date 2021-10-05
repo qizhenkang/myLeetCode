@@ -21,6 +21,6 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  482   | licenseKeyFormatting |    Easy    | [AC](./Solution_0482_licenseKeyFormatting.py) | 2021/10/04 |     String     |    ★★☆☆☆    |
 
 [^1]: [Zhenkang's Personal Page](https://qizhenkang.github.io/)
-[^2]: The current status of the question. AC: ACCEPT
-[^3]: The solved Time.
+[^2]: Current Status of the Problem. AC: ACCEPT
+[^3]: Solved Time.
 [^4]: My own understanding score. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
