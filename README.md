@@ -10,5 +10,6 @@ Therefore, I decided to start the journey of _LeetCode_, as a little source of h
 | Number |         Name         | Difficulty |                     State                     |    Time    | Classification | Mastery |
 | :----: | :------------------: | :--------: | :-------------------------------------------: | :--------: | :------------: | :-----: |
 |   49   |    groupAnagrams     |   Medium   |    [AC](./Solution_0049_groupAnagrams.py)     | 2021/10/04 |      Hash      |  ★★★★☆  |
+|   50   |        myPow         |   Medium   |        [AC](./Solution_0050_myPow.py)         | 2021/10/05 |   Recursion    |  ★★★★☆  |
 |  284   |   PeekingIterator    |   Medium   |   [AC](./Solution_0284_PeekingIterator.py)    | 2021/10/05 |     Design     |  ★☆☆☆☆  |
 |  482   | licenseKeyFormatting |    Easy    | [AC](./Solution_0482_licenseKeyFormatting.py) | 2021/10/04 |     String     |  ★★☆☆☆  |
