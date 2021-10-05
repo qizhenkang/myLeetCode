@@ -5,7 +5,13 @@ This _Zhenkang_'s _LeetCode_ Repository(mainly by _Python_).
 When I entered my Ph.D. career, I found that what I love is not researching, but programming.
 Therefore, I decided to start the journey of _LeetCode_, as a little source of happiness in my boring rearch life.
 
+<!-- career advancement -->
+
 ## My Coding Record
+
+Some interesting Problems are listed. For easy search and review, the difficulty, status and time are recorded.
+
+For example, the first recorded problem is **groupAnagrams**, whose difficulty is **Medium**. The time when got _accepted_ is _2021/10/04_. In the last column, my own understanding score on the problem are showed. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
 
 | Number |         Name         | Difficulty |                     State                     |    Time    | Classification | Mastery |
 | :----: | :------------------: | :--------: | :-------------------------------------------: | :--------: | :------------: | :-----: |
