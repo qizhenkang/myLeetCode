@@ -9,7 +9,7 @@ Therefore, I decided to start the journey of _LeetCode_, as a little source of h
 
 ## My Coding Record
 
-Some interesting Problems are listed. For easy search and review, the difficulty, status and time are recorded.
+Some interesting Problems are listed. For searching and reviewing easily, the difficulty, status and addressed time are recorded.
 
 For example, the first recorded problem is **groupAnagrams**, whose difficulty is **Medium**. The time when got _accepted_ is _2021/10/04_. In the last column, my own understanding score on the problem are showed. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
 
