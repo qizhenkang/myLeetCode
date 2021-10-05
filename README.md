@@ -4,8 +4,11 @@ This _Zhenkang[^1]_'s _LeetCode_ Repository(mainly by _Python_).
 
 When I entered my Ph.D. career, I found that what I love is not researching, but programming.
 Therefore, I decided to start the journey of _LeetCode_, as a little source of happiness in my boring rearch life.
+At the same time, it may have some other effects. For instance, it may be helpful for seaking employment or my career advancement.
 
-<!-- career advancement -->
+<!-- Just recording and imparting some useless information. -->
+
+<!-- career advancement / seek employment -->
 
 ## My Coding Record
 
