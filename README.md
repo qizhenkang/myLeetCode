@@ -22,6 +22,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   49   |    groupAnagrams     |   Medium   |    [AC](./Solution_0049_groupAnagrams.py)     | 2021/10/04 |      Hash      |    ★★★★☆    |
 |   50   |        myPow         |   Medium   |        [AC](./Solution_0050_myPow.py)         | 2021/10/05 |     Array      |    ★★★★★    |
 |   54   |     spiralOrder      |   Medium   |     [AC](./Solution_0054_spiralOrder.py)      | 2021/10/05 |   Recursion    |    ★★★★☆    |
+|   55   |       canJump        |   Medium   |       [AC](./Solution_0055_canJump.py)        | 2021/10/06 |     Greedy     |    ★★★★★    |
 |  284   |   PeekingIterator    |   Medium   |   [AC](./Solution_0284_PeekingIterator.py)    | 2021/10/05 |     Design     |    ★☆☆☆☆    |
 |  414   |       thirdMax       |    Easy    |       [AC](./Solution_0414_thirdMax.py)       | 2021/10/06 |    Sorting     |    ★★★★★    |
 |  482   | licenseKeyFormatting |    Easy    | [AC](./Solution_0482_licenseKeyFormatting.py) | 2021/10/04 |     String     |    ★★☆☆☆    |
