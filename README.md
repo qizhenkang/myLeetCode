@@ -7,7 +7,7 @@ Therefore, I decided to start the journey of _LeetCode_.
 It is not among core scientific researches, but a little source of happiness in the boring rearch career.
 At the same time, it may have some other effects. For instance, it may be helpful for seaking employment or my career advancement.
 
-<!-- Just recording and imparting some useless information. -->
+<!-- confront the uncertainty about the economic outlook -->
 
 <!-- career advancement / seek employment -->
 
