@@ -31,8 +31,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  434   |    countSegments     |    Easy    |    [AC](./Solution_0434_countSegments.py)     | 2021/10/07 |     String     |    ★★★★★    |
 |  482   | licenseKeyFormatting |    Easy    | [AC](./Solution_0482_licenseKeyFormatting.py) | 2021/10/04 |     String     |    ★★☆☆☆    |
 
-
-[^1]: [Zhenkang's Personal Page](https://qizhenkang.github.io/)
+[^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: ACCEPT
 [^3]: Solved Time.
 [^4]: My own understanding score. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
