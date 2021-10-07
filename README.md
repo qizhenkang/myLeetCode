@@ -24,11 +24,14 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   54   |     spiralOrder      |   Medium   |     [AC](./Solution_0054_spiralOrder.py)      | 2021/10/05 |     Array      |    ★★★★☆    |
 |   55   |       canJump        |   Medium   |       [AC](./Solution_0055_canJump.py)        | 2021/10/06 |     Greedy     |    ★★★★★    |
 |   56   |        merge         |   Medium   |        [AC](./Solution_0056_merge.py)         | 2021/10/06 |    Sorting     |    ★★★★★    |
+|   57   |        insert        |   Medium   |        [AC](./Solution_0057_insert.py)        | 2021/10/07 |     Array      |    ★★☆☆☆    |
 |   59   |    generateMatrix    |   Medium   |    [AC](./Solution_0059_generateMatrix.py)    | 2021/10/07 |     Array      |    ★★★★☆    |
 |  284   |   PeekingIterator    |   Medium   |   [AC](./Solution_0284_PeekingIterator.py)    | 2021/10/05 |     Design     |    ★☆☆☆☆    |
 |  414   |       thirdMax       |    Easy    |       [AC](./Solution_0414_thirdMax.py)       | 2021/10/06 |    Sorting     |    ★★★★★    |
 |  434   |    countSegments     |    Easy    |    [AC](./Solution_0434_countSegments.py)     | 2021/10/07 |     String     |    ★★★★★    |
 |  482   | licenseKeyFormatting |    Easy    | [AC](./Solution_0482_licenseKeyFormatting.py) | 2021/10/04 |     String     |    ★★☆☆☆    |
+
+Solution_0057_insert.py
 
 [^1]: [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: ACCEPT
