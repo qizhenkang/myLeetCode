@@ -31,7 +31,6 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  434   |    countSegments     |    Easy    |    [AC](./Solution_0434_countSegments.py)     | 2021/10/07 |     String     |    ★★★★★    |
 |  482   | licenseKeyFormatting |    Easy    | [AC](./Solution_0482_licenseKeyFormatting.py) | 2021/10/04 |     String     |    ★★☆☆☆    |
 
-Solution_0057_insert.py
 
 [^1]: [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: ACCEPT
