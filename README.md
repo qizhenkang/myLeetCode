@@ -28,6 +28,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   59   |      generateMatrix      |   Medium   |      [AC](./Solution_0059_generateMatrix.py)      | 2021/10/07 |     Array      |    ★★★★☆    |
 |   60   |      getPermutation      |    Hard    |      [AC](./Solution_0060_getPermutation.py)      | 2021/10/08 |   Recursion    |    ★★★☆☆    |
 |   61   |       rotateRight        |   Medium   |       [AC](./Solution_0061_rotateRight.py)        | 2021/10/08 |  Linked List   |    ★★★☆☆    |
+|   62   |       uniquePaths        |   Medium   |       [AC](./Solution_0062_uniquePaths.py)        | 2021/10/08 |       DP       |    ★★★☆☆    |
 |  187   | findRepeatedDnaSequences |   Medium   | [AC](./Solution_0187_findRepeatedDnaSequences.py) | 2021/10/08 |      Bit       |    ★★★★☆    |
 |  284   |     PeekingIterator      |   Medium   |     [AC](./Solution_0284_PeekingIterator.py)      | 2021/10/05 |     Design     |    ★☆☆☆☆    |
 |  414   |         thirdMax         |    Easy    |         [AC](./Solution_0414_thirdMax.py)         | 2021/10/06 |    Sorting     |    ★★★★★    |
