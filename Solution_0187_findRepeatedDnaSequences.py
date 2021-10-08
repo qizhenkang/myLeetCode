@@ -19,21 +19,37 @@ class Solution:
         2、用时10min
         
         答案：
-        答案利用了ATCG进行了位运算的优化，明天再看看
+        1、答案利用了ATCG进行了位运算的优化，本质上是利用滑动窗口每次只改变1点点
+        2、这里的做法：1 ATCG映射为 00 01 10 11； 2 利用滑动窗口
+        
+        改后效果：
+        1、测试通过，用时81% 内存90%
         """
         N = len(s)
         if N <= 10:
             return []
         result = []
+        ATCGdict = {'A':0b00,'T':0b01,'C':0b10,'G':0b11}
+        window = int(0)
         strDict = {}
-        for i in range(N-9):
-            if s[i:i+10] in strDict:
-                strDict[s[i:i+10]] +=1
-                if s[i:i+10] not in result:
-                    result.append(s[i:i+10])
+        for i in range(10):
+            window <<= 2
+            window |= ATCGdict[s[i]]
+        strDict[window] = 1
+        # print(window)
+        for i in range(10,N):
+            # print(i,'1',bin(window))
+            window <<= 2
+            window |= ATCGdict[s[i]]
+            window &= 1048575
+            # print(i,'2',bin(window))
+            if window in strDict:
+                strDict[window] += 1
+                if s[i-9:i+1] not in result:
+                    result.append(s[i-9:i+1])
             else:
-                strDict[s[i:i+10]] =1
-        
+                strDict[window] =1
+        # print(strDict)
         return result
         
         
@@ -44,8 +60,8 @@ if __name__ == '__main__':
     
     # input_List = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
     # input_List = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
-    s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
-    s = "AAAAAAAAAAA"
+    # s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+    s = "AAAAAAAAAAAAA"
     # intervals = [[1,1],[3,5],[6,7],[8,10],[12,16]]
     # newInterval = [2,17]
     # intervals = [[2,5]]
