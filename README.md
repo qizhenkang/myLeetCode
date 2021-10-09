@@ -4,8 +4,8 @@ This _Zhenkang[^1]_'s _LeetCode_ Repository(mainly by _Python_).
 
 When I entered my Ph.D. career, I found that what I love is not researching, but programming.
 Therefore, I decided to start the journey of _LeetCode_.
-It is not among core scientific researches, but a little source of happiness in the boring rearch career.
-At the same time, it may have some other effects. For instance, it may be helpful for seaking employment or my career advancement.
+It is not among core scientific researches, but a little source of happiness in the boring research career.
+At the same time, it may have some other effects. For instance, it may be helpful for seeking employment or my career advancement.
 
 <!-- confront the uncertainty about the economic outlook -->
 
@@ -32,6 +32,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   63   | uniquePathsWithObstacles |   Medium   | [ERROR](./Solution_0063_uniquePathsWithObstacles.py) | 2021/10/08 |       DP       |    ★★☆☆☆    |
 |  187   | findRepeatedDnaSequences |   Medium   |  [AC](./Solution_0187_findRepeatedDnaSequences.py)   | 2021/10/08 |      Bit       |    ★★★★☆    |
 |  284   |     PeekingIterator      |   Medium   |       [AC](./Solution_0284_PeekingIterator.py)       | 2021/10/05 |     Design     |    ★☆☆☆☆    |
+|  352   |      SummaryRanges       |    Hard    |        [AC](./Solution_0352_SummaryRanges.py)        | 2021/10/09 |     Design     |    ★★☆☆☆    |
 |  414   |         thirdMax         |    Easy    |          [AC](./Solution_0414_thirdMax.py)           | 2021/10/06 |    Sorting     |    ★★★★★    |
 |  434   |      countSegments       |    Easy    |        [AC](./Solution_0434_countSegments.py)        | 2021/10/07 |     String     |    ★★★★★    |
 |  482   |   licenseKeyFormatting   |    Easy    |    [AC](./Solution_0482_licenseKeyFormatting.py)     | 2021/10/04 |     String     |    ★★☆☆☆    |
