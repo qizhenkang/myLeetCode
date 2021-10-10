@@ -122,12 +122,13 @@ if __name__ == '__main__':
     
     # 设置字号
     fontSize = 10
+    myDPI = 150
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
     plt.xlabel('Time / hour',fontsize=fontSize+3)
     plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
     plt.title("Hourly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
-    plt.savefig('.//image//HourlyDistribution.jpg', dpi=100)
+    plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI)
     
     # plt.xticks(fontsize = 30)
     
@@ -149,7 +150,7 @@ if __name__ == '__main__':
     plt.xlabel('Time / month',fontsize=fontSize+3)
     plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
     plt.title("Monthly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
-    plt.savefig('.//image//MonthlyDistribution.jpg', dpi=100)
+    plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI)
     # plt.xticks(fontsize = 30)
     
     
