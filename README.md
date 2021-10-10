@@ -21,7 +21,7 @@ My statistics are showed here.
 
 | Number |                               Contest Title                               | Score |   Ranking   | Time[^3]   |
 | :----: | :-----------------------------------------------------------------------: | :---: | :---------: | ---------- |
-|   1    | [Weekly Contest 262](https://leetcode-cn.com/contest/weekly-contest-262/) | ●●○○  | 1352 / 4260 | 2021/10/10 |
+|   1    | [Weekly Contest 262](https://leetcode-cn.com/contest/weekly-contest-262/) | √√××  | 1352 / 4260 | 2021/10/10 |
 
 ## My Coding Record
 
