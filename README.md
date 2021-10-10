@@ -129,6 +129,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  430   |         flatten          |            |           [AC](./Solution_0430_flatten.py)           | 2021/09/24 |                |             |
 |  434   |      countSegments       |    Easy    |        [AC](./Solution_0434_countSegments.py)        | 2021/10/07 |     String     |    ★★★★★    |
 |  437   |         pathSum          |            |           [AC](./Solution_0437_pathSum.py)           | 2021/09/28 |                |             |
+|  441   |       arrangeCoins       |    Easy    |        [AC](./Solution_0441_arrangeCoins.py)         | 2021/10/10 |      Math      |    ★★★★☆    |
 |  447   |    numberOfBoomerangs    |            |     [AC](./Solution_0447_numberOfBoomerangs.py)      | 2021/09/13 |                |             |
 |  451   |      frequencySort       |            |        [AC](./Solution_0451_frequencySort.py)        | 2021/08/28 |                |             |
 |  470   |          rand10          |            |           [AC](./Solution_0470_rand10.py)            | 2021/09/05 |                |             |
@@ -148,6 +149,9 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  1436  |         destCity         |            |          [AC](./Solution_1436_destCity.py)           | 2021/10/01 |                |             |
 |  1894  |      chalkReplacer       |            |        [AC](./Solution_1894_chalkReplacer.py)        | 2021/09/10 |                |             |
 |  1995  |     countQuadruplets     |            |      [AC](./Solution_1995_countQuadruplets.py)       | 2021/09/08 |                |             |
+|  5894  |      twoOutOfThree       |            |        [AC](./Solution_5894_twoOutOfThree.py)        | 2021/10/10 |     Array      |    ★★★☆☆    |
+|  5895  |      minOperations       |            |        [AC](./Solution_5895_minOperations.py)        | 2021/10/10 |      Math      |    ★★★★☆    |
+|  5896  |        StockPrice        |            |         [AC](./Solution_5896_StockPrice.py)          | 2021/10/10 |     Design     |    ★★☆☆☆    |
 
 [^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: ACCEPT
