@@ -111,14 +111,17 @@ if __name__ == '__main__':
     totalProblems = sum(hourslist)
     
     plt.style.use('dark_background')
-    fig_hours, ax = plt.subplots(figsize=(8, 4)) # ,facecolor='black'
+    githubColor = [13/255,17/255,23/255]
+    fig_hours, ax = plt.subplots(figsize=(8, 4),facecolor=githubColor) # ,facecolor='black'
     hours = [str(i) for i in range(24)]
     hourslist_percent = [ i / totalProblems * 100 for i in hourslist]
     hourscmap = plt.cm.get_cmap('tab20c')
     hoursColor = hourscmap([ i/24 * 4 / 5 for i in range(24)])
     ax.bar(hours, hourslist_percent, width=0.5, label="Working Hours", color = hoursColor)
+    ax.set_facecolor(githubColor)
     for label in ax.xaxis.get_ticklabels()[1::2]:
         label.set_visible(False)
+    
     
     # 设置字号
     fontSize = 10
@@ -132,13 +135,14 @@ if __name__ == '__main__':
     
     # plt.xticks(fontsize = 30)
     
-    fig_months, ax = plt.subplots(figsize=(8, 4))
+    fig_months, ax = plt.subplots(figsize=(8, 4),facecolor=githubColor)
     months = [calendar.month_abbr[i] for i in range(1,13)]
     monthscmap = plt.cm.get_cmap('tab20c')
     totalProblems2021 = sum(yearsDict[2021])
     monthslist_percent = [i / totalProblems2021 * 100 for i in yearsDict[2021]]
     monthsColor = hourscmap([ i/12 * 4 / 5 for i in range(12)])
     ax.bar(months, monthslist_percent, width=0.5, label="Product_1", color=monthsColor)
+    ax.set_facecolor(githubColor)
     # plt.plot(hourslist)
     print(hourslist)
     print(yearsDict)
