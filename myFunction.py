@@ -110,7 +110,8 @@ if __name__ == '__main__':
     hourslist, yearsDict = myfunc.statistics('.')
     totalProblems = sum(hourslist)
     
-    fig_hours, ax = plt.subplots(figsize=(8.9, 5))
+    plt.style.use('dark_background')
+    fig_hours, ax = plt.subplots(figsize=(8, 4)) # ,facecolor='black'
     hours = [str(i) for i in range(24)]
     hourslist_percent = [ i / totalProblems * 100 for i in hourslist]
     hourscmap = plt.cm.get_cmap('tab20c')
@@ -120,7 +121,7 @@ if __name__ == '__main__':
         label.set_visible(False)
     
     # 设置字号
-    fontSize = 15
+    fontSize = 10
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
     plt.xlabel('Time / hour',fontsize=fontSize+3)
@@ -130,7 +131,7 @@ if __name__ == '__main__':
     
     # plt.xticks(fontsize = 30)
     
-    fig_months, ax = plt.subplots(figsize=(8.9, 5))
+    fig_months, ax = plt.subplots(figsize=(8, 4))
     months = [calendar.month_abbr[i] for i in range(1,13)]
     monthscmap = plt.cm.get_cmap('tab20c')
     totalProblems2021 = sum(yearsDict[2021])
@@ -142,7 +143,7 @@ if __name__ == '__main__':
     print(yearsDict)
     
     # 设置字号
-    fontSize = 15
+    # fontSize = 15
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
     plt.xlabel('Time / month',fontsize=fontSize+3)
