@@ -6,7 +6,7 @@ Created on Sat Sep 25 15:58:46 2021
 """
 
 import os, os.path, time
-
+import calendar
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 
@@ -66,7 +66,7 @@ class myFunction:
                 
                 # Time
                 # 获取文件时间
-                unixTime = os.path.getmtime(name)
+                unixTime = os.path.getmtime(fileFolder+name)
                 localTime = time.localtime(unixTime)
                 timeStr = time.strftime('%Y/%m/%d',localTime)
                 strlist[pointer] += timeStr
@@ -107,21 +107,44 @@ if __name__ == '__main__':
     hourslist, yearsDict = myfunc.statistics('.')
     
     fig_hours, ax = plt.subplots(figsize=(10, 7))
-    hours = [str(i) for i in range(1,25)]
-    ax.bar(hours, hourslist, width=0.5, label="Product_1", color="red")
+    hours = [str(i) for i in range(24)]
+    hourscmap = plt.cm.get_cmap('tab20c')
+    hoursColor = hourscmap([ i/24 * 4 / 5 for i in range(24)])
+    ax.bar(hours, hourslist, width=0.5, label="Working Hours", color = hoursColor)
+
+    
+    # 设置字号
+    fontSize = 15
+    plt.xticks(size=fontSize)
+    plt.yticks(size=fontSize)
+    plt.xlabel('Time / hour',fontsize=fontSize+3)
+    plt.ylabel('The number of problems',fontsize=fontSize+3)
+    plt.title("Feature importances", fontsize=fontSize+5) # 设置标题
+    # plt.xticks(fontsize = 30)
     
     fig_months, ax = plt.subplots(figsize=(10, 7))
-    months = [str(i) for i in range(1,13)]
-    ax.bar(months, yearsDict[2021], width=0.5, label="Product_1", color="red")
+    months = [calendar.month_abbr[i] for i in range(1,13)]
+    monthscmap = plt.cm.get_cmap('tab20c')
+    monthsColor = hourscmap([ i/12 * 4 / 5 for i in range(12)])
+    ax.bar(months, yearsDict[2021], width=0.5, label="Product_1", color=monthsColor)
     # plt.plot(hourslist)
     print(hourslist)
     print(yearsDict)
     
+    # 设置字号
+    fontSize = 15
+    plt.xticks(size=fontSize)
+    plt.yticks(size=fontSize)
+    plt.xlabel('Time / month',fontsize=fontSize+3)
+    plt.ylabel('The number of problems',fontsize=fontSize+3)
+    plt.title("Feature importances", fontsize=fontSize+5) # 设置标题
+    # plt.xticks(fontsize = 30)
+    
     
     # Name2MarkdownList
-    # strlist = myfunc.Name2MarkdownList('.')
+    # strlist = myfunc.Name2MarkdownList('E:\\Python_Projects\\LeetCode\\')
     # for s in strlist:
     #     print(s)
     
     # Rename
-    # myfunc.rename('E:\\Python_Projects\\LeetCode')
+    # myfunc.rename('E:\\Python_Projects\\LeetCode\\')
