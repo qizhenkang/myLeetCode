@@ -131,7 +131,7 @@ if __name__ == '__main__':
     plt.xlabel('Time / hour',fontsize=fontSize+3)
     plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
     plt.title("Hourly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
-    plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI)
+    plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     
     # plt.xticks(fontsize = 30)
     
@@ -143,6 +143,7 @@ if __name__ == '__main__':
     monthsColor = hourscmap([ i/12 * 4 / 5 for i in range(12)])
     ax.bar(months, monthslist_percent, width=0.5, label="Product_1", color=monthsColor)
     ax.set_facecolor(githubColor)
+    fig_months.set_facecolor(githubColor)
     # plt.plot(hourslist)
     print(hourslist)
     print(yearsDict)
@@ -154,7 +155,7 @@ if __name__ == '__main__':
     plt.xlabel('Time / month',fontsize=fontSize+3)
     plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
     plt.title("Monthly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
-    plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI)
+    plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     # plt.xticks(fontsize = 30)
     
     
