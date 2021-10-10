@@ -9,6 +9,9 @@ import os, os.path, time
 import calendar
 import matplotlib.pyplot as plt
 import matplotlib as mpl
+from matplotlib import rcParams
+# 字体设置
+rcParams['font.family'] = 'Times New Roman'
 
 class myFunction:
 
@@ -105,28 +108,35 @@ if __name__ == '__main__':
     myfunc = myFunction()
     # Statistics
     hourslist, yearsDict = myfunc.statistics('.')
+    totalProblems = sum(hourslist)
     
-    fig_hours, ax = plt.subplots(figsize=(10, 7))
+    fig_hours, ax = plt.subplots(figsize=(8.9, 5))
     hours = [str(i) for i in range(24)]
+    hourslist_percent = [ i / totalProblems * 100 for i in hourslist]
     hourscmap = plt.cm.get_cmap('tab20c')
     hoursColor = hourscmap([ i/24 * 4 / 5 for i in range(24)])
-    ax.bar(hours, hourslist, width=0.5, label="Working Hours", color = hoursColor)
-
+    ax.bar(hours, hourslist_percent, width=0.5, label="Working Hours", color = hoursColor)
+    for label in ax.xaxis.get_ticklabels()[1::2]:
+        label.set_visible(False)
     
     # 设置字号
     fontSize = 15
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
     plt.xlabel('Time / hour',fontsize=fontSize+3)
-    plt.ylabel('The number of problems',fontsize=fontSize+3)
-    plt.title("Feature importances", fontsize=fontSize+5) # 设置标题
+    plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
+    plt.title("Hourly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
+    plt.savefig('.//image//HourlyDistribution.jpg', dpi=100)
+    
     # plt.xticks(fontsize = 30)
     
-    fig_months, ax = plt.subplots(figsize=(10, 7))
+    fig_months, ax = plt.subplots(figsize=(8.9, 5))
     months = [calendar.month_abbr[i] for i in range(1,13)]
     monthscmap = plt.cm.get_cmap('tab20c')
+    totalProblems2021 = sum(yearsDict[2021])
+    monthslist_percent = [i / totalProblems2021 * 100 for i in yearsDict[2021]]
     monthsColor = hourscmap([ i/12 * 4 / 5 for i in range(12)])
-    ax.bar(months, yearsDict[2021], width=0.5, label="Product_1", color=monthsColor)
+    ax.bar(months, monthslist_percent, width=0.5, label="Product_1", color=monthsColor)
     # plt.plot(hourslist)
     print(hourslist)
     print(yearsDict)
@@ -136,8 +146,9 @@ if __name__ == '__main__':
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
     plt.xlabel('Time / month',fontsize=fontSize+3)
-    plt.ylabel('The number of problems',fontsize=fontSize+3)
-    plt.title("Feature importances", fontsize=fontSize+5) # 设置标题
+    plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
+    plt.title("Monthly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
+    plt.savefig('.//image//MonthlyDistribution.jpg', dpi=100)
     # plt.xticks(fontsize = 30)
     
     

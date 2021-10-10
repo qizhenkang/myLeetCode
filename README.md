@@ -11,6 +11,12 @@ At the same time, it may have some other effects. For instance, it may be helpfu
 
 <!-- career advancement / seek employment -->
 
+## Statistics
+
+My statistics are showed here.
+
+![Figure of Hourly Distribution](.//image//HourlyDistribution.jpg)
+
 ## My Coding Record
 
 Some interesting Problems are listed. For searching and reviewing easily, the difficulty, status and addressed time are recorded.
@@ -151,7 +157,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  1995  |     countQuadruplets     |            |      [AC](./Solution_1995_countQuadruplets.py)       | 2021/09/08 |                |             |
 |  5894  |      twoOutOfThree       |    Easy    |        [AC](./Solution_5894_twoOutOfThree.py)        | 2021/10/10 |     Array      |    ★★★☆☆    |
 |  5895  |      minOperations       |   Medium   |        [AC](./Solution_5895_minOperations.py)        | 2021/10/10 |      Math      |    ★★★★☆    |
-|  5896  |        StockPrice        |   Medium   |         [ERROR](./Solution_5896_StockPrice.py)          | 2021/10/10 |     Design     |    ★★☆☆☆    |
+|  5896  |        StockPrice        |   Medium   |        [ERROR](./Solution_5896_StockPrice.py)        | 2021/10/10 |     Design     |    ★★☆☆☆    |
 
 [^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: ACCEPT
