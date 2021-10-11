@@ -10,6 +10,7 @@ class Solution:
         """
         读题：
         1、第一反应，哈希表统计次数
+        
         """
         result = []
         numDict1 = {}
