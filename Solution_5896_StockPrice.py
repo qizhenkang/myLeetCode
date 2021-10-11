@@ -13,10 +13,12 @@ class StockPrice:
     """
     答案：双百通过。
     利用了一个“容器”有序列表
+    
+    能不能自己维护一个有序列表？ 应该很简单吧？
     """
     def __init__(self):
         self.priceDict = {} # 用于记录时间-价格的哈希表
-        self.prices = SortedList() # 用于记录历史价格的有序列表
+        self.pricesHistory = SortedList() # 用于记录历史价格的有序列表
         self.currentTime = 0 # 用于记录当前时间（最大时间）
         return
 
@@ -24,8 +26,8 @@ class StockPrice:
     def update(self, timestamp: int, price: int):
         self.currentTime = max(self.currentTime,timestamp)
         if timestamp in self.priceDict:
-            self.prices.discard(self.priceDict[timestamp])
-        self.prices.add(price)
+            self.pricesHistory.discard(self.priceDict[timestamp])
+        self.pricesHistory.add(price)
         self.priceDict[timestamp] = price
         
         return
@@ -36,11 +38,11 @@ class StockPrice:
 
 
     def maximum(self) -> int:
-        return self.prices[-1]
+        return self.pricesHistory[-1]
 
 
     def minimum(self) -> int:
-        return self.prices[0]
+        return self.pricesHistory[0]
 
 if __name__ == '__main__':
     stockPrice = StockPrice()
