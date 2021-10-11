@@ -21,7 +21,7 @@ My statistics are showed here.
 
 | Number |                               Contest Title                               | Score | Global Ranking | Time       |
 | :----: | :-----------------------------------------------------------------------: | :---: | :------------: | ---------- |
-|   1    | [Weekly Contest 262](https://leetcode-cn.com/contest/weekly-contest-262/) | √√××  |  3997 / 13137  | 2021/10/10 |
+|   1    | [Weekly Contest 262](https://leetcode-cn.com/contest/weekly-contest-262/) | ✔✔××  |  3997 / 13137  | 2021/10/10 |
 
 ## My Coding Record
 
@@ -130,6 +130,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  198   |           rob            |            |             [AC](./Solution_0198_rob.py)             | 2021/09/10 |                |             |
 |  213   |           rob            |            |             [AC](./Solution_0213_rob.py)             | 2021/09/26 |                |             |
 |  223   |       computeArea        |            |         [AC](./Solution_0223_computeArea.py)         | 2021/09/30 |                |             |
+|  273   |      numberToWords       |    Hard    |        [AC](./Solution_0273_numberToWords.py)        | 2021/10/11 |     String     |    ★★★★★    |
 |  279   |        numSquares        |            |         [AC](./Solution_0279_numSquares.py)          | 2021/09/10 |                |             |
 |  284   |     PeekingIterator      |   Medium   |       [AC](./Solution_0284_PeekingIterator.py)       | 2021/10/05 |     Design     |    ★☆☆☆☆    |
 |  326   |      isPowerOfThree      |            |       [AC](./Solution_0326_isPowerOfThree.py)        | 2021/09/23 |                |             |
@@ -163,7 +164,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  1995  |     countQuadruplets     |            |      [AC](./Solution_1995_countQuadruplets.py)       | 2021/09/08 |                |             |
 |  5894  |      twoOutOfThree       |    Easy    |        [AC](./Solution_5894_twoOutOfThree.py)        | 2021/10/10 |     Array      |    ★★★☆☆    |
 |  5895  |      minOperations       |   Medium   |        [AC](./Solution_5895_minOperations.py)        | 2021/10/10 |      Math      |    ★★★★☆    |
-|  5896  |        StockPrice        |   Medium   |        [ERROR](./Solution_5896_StockPrice.py)        | 2021/10/10 |     Design     |    ★★☆☆☆    |
+|  5896  |        StockPrice        |   Medium   |         [AC](./Solution_5896_StockPrice.py)          | 2021/10/11 |     Design     |    ★★★☆☆    |
 
 [^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: ACCEPT

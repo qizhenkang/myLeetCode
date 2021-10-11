@@ -111,10 +111,10 @@ if __name__ == '__main__':
     totalProblems = sum(hourslist)
     
     plt.style.use('dark_background')
-    githubColor = [13/255,17/255,23/255]
+    githubColor = [13/255,17/255,23/255] # 匹配github色彩
     fig_hours, ax = plt.subplots(figsize=(8, 4),facecolor=githubColor) # ,facecolor='black'
     hours = [str(i) for i in range(24)]
-    hourslist_percent = [ i / totalProblems * 100 for i in hourslist]
+    hourslist_percent = [ i / totalProblems * 100  for i in hourslist]
     hourscmap = plt.cm.get_cmap('tab20c')
     hoursColor = hourscmap([ i/24 * 4 / 5 for i in range(24)])
     ax.bar(hours, hourslist_percent, width=0.5, label="Working Hours", color = hoursColor)
