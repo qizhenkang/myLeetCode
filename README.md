@@ -19,9 +19,9 @@ My statistics are showed here.
 
 ### LeetCode Contest
 
-| Number |                               Contest Title                               |   Score   | Global Ranking | Time       |
-| :----: | :-----------------------------------------------------------------------: | :-------: | :------------: | ---------- |
-|   1    | [Weekly Contest 262](https://leetcode-cn.com/contest/weekly-contest-262/) | ✔✔❌❌ ✔✖ |  3997 / 13137  | 2021/10/10 |
+| Number |                               Contest Title                               | Score  | Global Ranking | Time       |
+| :----: | :-----------------------------------------------------------------------: | :----: | :------------: | ---------- |
+|   1    | [Weekly Contest 262](https://leetcode-cn.com/contest/weekly-contest-262/) | ✔✔❌❌ |  3997 / 13137  | 2021/10/10 |
 
 ## My Coding Record
 
