@@ -50,7 +50,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   15   |         threeSum         |            |         [AC](./code/Solution_0015_threeSum.py)         | 2020/12/07 |                |             |
 |   16   |     threeSumClosest      |            |     [AC](./code/Solution_0016_threeSumClosest.py)      | 2020/12/08 |                |             |
 |   17   |    letterCombinations    |            |    [AC](./code/Solution_0017_letterCombinations.py)    | 2021/09/30 |                |             |
-|   18   |         fourSum          |            |         [AC](./code/Solution_0018_fourSum.py)          | 2021/08/06 |                |             |
+|   18   |         fourSum          |            |         [WA](./code/Solution_0018_fourSum.py)          | 2021/08/06 |                |             |
 |   19   |     removeNthFromEnd     |            |     [AC](./code/Solution_0019_removeNthFromEnd.py)     | 2021/08/14 |                |             |
 |   20   |         isValid          |            |         [AC](./code/Solution_0020_isValid.py)          | 2021/08/10 |                |             |
 |   21   |      mergeTwoLists       |            |      [AC](./code/Solution_0021_mergeTwoLists.py)       | 2021/09/27 |                |             |
