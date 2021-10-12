@@ -10,6 +10,7 @@ import calendar
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 from matplotlib import rcParams
+import qizhenkangpylib
 # 字体设置
 rcParams['font.family'] = 'Times New Roman'
 
@@ -96,7 +97,7 @@ class myFunction:
         for name in items:
             if name[:9] == 'Solution_':
                 # 获取文件时间
-                unixTime = os.path.getmtime(name)
+                unixTime = os.path.getmtime(fileFolder+name)
                 localTime = time.localtime(unixTime)
                 hourslist[localTime.tm_hour] +=1
                 yearsDict[localTime.tm_year][localTime.tm_mon-1] += 1
@@ -107,7 +108,10 @@ class myFunction:
 if __name__ == '__main__':
     myfunc = myFunction()
     # Statistics
-    hourslist, yearsDict = myfunc.statistics('.')
+    # hourslist, yearsDict = myfunc.statistics('./code/')
+    hourslist = [4, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22, 10, 5, 8, 10, 11, 7, 16, 1, 13, 16, 4, 2, 4]
+    yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 38, 0, 0]}
+    
     totalProblems = sum(hourslist)
     
     plt.style.use('dark_background')

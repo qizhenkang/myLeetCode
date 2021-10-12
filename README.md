@@ -96,6 +96,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   62   |       uniquePaths        |   Medium   |         [AC](./code/Solution_0062_uniquePaths.py)         | 2021/10/08 |       DP       |    ★★☆☆☆    |
 |   63   | uniquePathsWithObstacles |   Medium   | [ERROR](./code/Solution_0063_uniquePathsWithObstacles.py) | 2021/10/08 |       DP       |    ★★☆☆☆    |
 |   64   |        minPathSum        |   Medium   |         [AC](./code/Solution_0064_minPathSum.py)          | 2021/10/11 |       DP       |    ★★★★☆    |
+|   65   |         isNumber         |    Hard    |          [AC](./code/Solution_0065_isNumber.py)           | 2021/10/12 |     String     |    ★☆☆☆☆    |
 |   66   |         plusOne          |            |           [AC](./code/Solution_0066_plusOne.py)           | 2021/09/27 |                |             |
 |   67   |        addBinary         |            |          [AC](./code/Solution_0067_addBinary.py)          | 2021/09/27 |                |             |
 |   68   |       fullJustify        |            |         [AC](./code/Solution_0068_fullJustify.py)         | 2021/09/09 |                |             |
