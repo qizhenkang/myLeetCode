@@ -61,6 +61,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   26   |     removeDuplicates     |            |      [AC](./Solution_0026_removeDuplicates.py)       | 2021/08/15 |                |             |
 |   27   |      removeElement       |            |        [AC](./Solution_0027_removeElement.py)        | 2021/08/15 |                |             |
 |   28   |          strStr          |            |           [AC](./Solution_0028_strStr.py)            | 2021/08/17 |                |             |
+|   29   |          divide          |   Medium   |           [AC](./Solution_0029_divide.py)            | 2021/10/12 |      Bit       |    ★☆☆☆☆    |
 |   30   |      findSubstring       |            |        [AC](./Solution_0030_findSubstring.py)        | 2021/10/01 |                |             |
 |   31   |     nextPermutation      |            |       [AC](./Solution_0031_nextPermutation.py)       | 2021/09/30 |                |             |
 |   32   | longestValidParentheses  |            |   [AC](./Solution_0032_longestValidParentheses.py)   | 2021/09/25 |                |             |
@@ -94,6 +95,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   61   |       rotateRight        |   Medium   |         [AC](./Solution_0061_rotateRight.py)         | 2021/10/08 |  Linked List   |    ★★★☆☆    |
 |   62   |       uniquePaths        |   Medium   |         [AC](./Solution_0062_uniquePaths.py)         | 2021/10/08 |       DP       |    ★★☆☆☆    |
 |   63   | uniquePathsWithObstacles |   Medium   | [ERROR](./Solution_0063_uniquePathsWithObstacles.py) | 2021/10/08 |       DP       |    ★★☆☆☆    |
+|   64   |        minPathSum        |   Medium   |         [AC](./Solution_0064_minPathSum.py)          | 2021/10/11 |       DP       |    ★★★★☆    |
 |   66   |         plusOne          |            |           [AC](./Solution_0066_plusOne.py)           | 2021/09/27 |                |             |
 |   67   |        addBinary         |            |          [AC](./Solution_0067_addBinary.py)          | 2021/09/27 |                |             |
 |   68   |       fullJustify        |            |         [AC](./Solution_0068_fullJustify.py)         | 2021/09/09 |                |             |
