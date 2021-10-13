@@ -140,6 +140,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  352   |      SummaryRanges       |    Hard    |      [AC](./code/Solution_0352_SummaryRanges.py)       | 2021/10/09 |     Design     |    ★★☆☆☆    |
 |  371   |          getSum          |            |          [AC](./code/Solution_0371_getSum.py)          | 2021/09/26 |                |             |
 |  405   |          toHex           |            |          [AC](./code/Solution_0405_toHex.py)           | 2021/10/02 |                |             |
+|  412   |         fizzBuzz         |    Easy    |         [AC](./code/Solution_0412_fizzBuzz.py)         | 2021/10/13 |     Array      |    ★★★★★    |
 |  413   | numberOfArithmeticSlices |            | [AC](./code/Solution_0413_numberOfArithmeticSlices.py) | 2021/09/10 |                |             |
 |  414   |         thirdMax         |    Easy    |         [AC](./code/Solution_0414_thirdMax.py)         | 2021/10/06 |    Sorting     |    ★★★★★    |
 |  430   |         flatten          |            |         [AC](./code/Solution_0430_flatten.py)          | 2021/09/24 |                |             |
