@@ -18,20 +18,41 @@ class Solution:
         
         答案：
         动态规划
+        
+        第二次读题：
+        1、读题就想到了动态规划，这样应该不难，当遇到障碍的时候，清零就可以了吧？
+        2、先写不优化空间的，再写优化空间的
         """
-        def uniquePath(m,n):
-            return round(math.factorial(m + n - 2) / math.factorial(n-1) / math.factorial(m-1))
         m = len(obstacleGrid)
         n = len(obstacleGrid[0])
-        result = uniquePath(m, n)
+        dp = [0]*n
+        
+        
+        # for j in range(1,n):
+        #     dp[0][j] = dp[0][j-1] if obstacleGrid[0][j] == 0 else 0
+        dp[0] = 1
         for i in range(m):
             for j in range(n):
-                if obstacleGrid[i][j] == 1:
-                    # pass
-                    result -= uniquePath(m-i, n-j) * uniquePath(i+1, j+1)
-                    # print(i,j,result,uniquePath(m-i, n-j),uniquePath(i+1, j+1))
+                if j == 0:
+                    dp[j] = dp[j] if obstacleGrid[i][j] == 0 else 0
+                else:
+                    dp[j] = dp[j-1] + dp[j]  if obstacleGrid[i][j] == 0 else 0
+                
+        return dp[n-1]
+        
+        # def uniquePath(m,n):
+        #     return round(math.factorial(m + n - 2) / math.factorial(n-1) / math.factorial(m-1))
+        # m = len(obstacleGrid)
+        # n = len(obstacleGrid[0])
+        # result = uniquePath(m, n)
+        # for i in range(m):
+        #     for j in range(n):
+        #         if obstacleGrid[i][j] == 1:
+        #             # pass
+        #             result -= uniquePath(m-i, n-j) * uniquePath(i+1, j+1)
+        #             # print(i,j,result,uniquePath(m-i, n-j),uniquePath(i+1, j+1))
 
-        return result
+        # return result
         # return comb(m + n - 2, n - 1)
 
         # if m > n:
@@ -75,7 +96,7 @@ if __name__ == '__main__':
     # input_List = 1
     # numerator = -50
     # strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
-    obstacleGrid = [[0,1,0],[0,1,0],[0,0,0]]
+    obstacleGrid = [[0,1,0],[0,0,0],[0,1,0]]
     # obstacleGrid = [[0,1],[0,0]]
     result = solu.uniquePathsWithObstacles(obstacleGrid)
     # output_Str = ' result = '

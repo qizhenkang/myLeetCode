@@ -19,9 +19,9 @@ My statistics are showed here.
 
 ### LeetCode Contest
 
-| Number |                               Contest Title                               | Score  | Global Ranking | Time       |
-| :----: | :-----------------------------------------------------------------------: | :----: | :------------: | ---------- |
-|   1    | [Weekly Contest 262](https://leetcode-cn.com/contest/weekly-contest-262/) | ✔✔❌❌ |  3997 / 13137  | 2021/10/10 |
+| Number |                             Contest Title                              | Score  | Global Ranking | Time       |
+| :----: | :--------------------------------------------------------------------: | :----: | :------------: | ---------- |
+|   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌ |  3997 / 13137  | 2021/10/10 |
 
 ## My Coding Record
 
@@ -93,8 +93,8 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   59   |      generateMatrix      |   Medium   |      [AC](./code/Solution_0059_generateMatrix.py)      | 2021/10/07 |     Array      |    ★★★★☆    |
 |   60   |      getPermutation      |    Hard    |      [AC](./code/Solution_0060_getPermutation.py)      | 2021/10/08 |   Recursion    |    ★★★☆☆    |
 |   61   |       rotateRight        |   Medium   |       [AC](./code/Solution_0061_rotateRight.py)        | 2021/10/08 |  Linked List   |    ★★★☆☆    |
-|   62   |       uniquePaths        |   Medium   |       [AC](./code/Solution_0062_uniquePaths.py)        | 2021/10/08 |       DP       |    ★★☆☆☆    |
-|   63   | uniquePathsWithObstacles |   Medium   | [WA](./code/Solution_0063_uniquePathsWithObstacles.py) | 2021/10/08 |       DP       |    ★★☆☆☆    |
+|   62   |       uniquePaths        |   Medium   |       [AC](./code/Solution_0062_uniquePaths.py)        | 2021/10/08 |       DP       |    ★★★☆☆    |
+|   63   | uniquePathsWithObstacles |   Medium   | [AC](./code/Solution_0063_uniquePathsWithObstacles.py) | 2021/10/13 |       DP       |    ★★★★☆    |
 |   64   |        minPathSum        |   Medium   |        [AC](./code/Solution_0064_minPathSum.py)        | 2021/10/11 |       DP       |    ★★★★☆    |
 |   65   |         isNumber         |    Hard    |         [AC](./code/Solution_0065_isNumber.py)         | 2021/10/12 |     String     |    ★☆☆☆☆    |
 |   66   |         plusOne          |            |         [AC](./code/Solution_0066_plusOne.py)          | 2021/09/27 |                |             |
@@ -102,6 +102,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   68   |       fullJustify        |            |       [AC](./code/Solution_0068_fullJustify.py)        | 2021/09/09 |                |             |
 |   69   |          mySqrt          |            |          [AC](./code/Solution_0069_mySqrt.py)          | 2021/09/27 |                |             |
 |   70   |       climbStairs        |            |       [AC](./code/Solution_0070_climbStairs.py)        | 2021/09/10 |                |             |
+|   73   |        setZeroes         |   Medium   |        [AC](./code/Solution_0073_setZeroes.py)         | 2021/10/13 |     Array      |    ★★★★☆    |
 |   75   |        sortColors        |            |        [AC](./code/Solution_0075_sortColors.py)        | 2021/09/03 |                |             |
 |   77   |         combine          |            |         [AC](./code/Solution_0077_combine.py)          | 2021/10/01 |                |             |
 |   94   |     inorderTraversal     |            |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |                |             |
