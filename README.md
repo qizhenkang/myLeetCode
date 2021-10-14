@@ -162,11 +162,13 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  678   |     checkValidString     |            |     [AC](./code/Solution_0678_checkValidString.py)     | 2021/09/13 |                |             |
 |  680   |     validPalindrome      |            |     [AC](./code/Solution_0680_validPalindrome.py)      | 2021/08/21 |                |             |
 |  704   |          search          |            |          [AC](./code/Solution_0704_search.py)          | 2021/09/06 |                |             |
+|  852   | peakIndexInMountainArray |    Easy    | [AC](./code/Solution_0852_peakIndexInMountainArray.py) | 2021/10/14 |     Search     |    ★★★★☆    |
 |  1143  | longestCommonSubsequence |            | [AC](./code/Solution_1143_longestCommonSubsequence.py) | 2021/09/25 |                |             |
 |  1221  |   balancedStringSplit    |            |   [AC](./code/Solution_1221_balancedStringSplit.py)    | 2021/09/07 |                |             |
 |  1436  |         destCity         |            |         [AC](./code/Solution_1436_destCity.py)         | 2021/10/01 |                |             |
 |  1894  |      chalkReplacer       |            |      [AC](./code/Solution_1894_chalkReplacer.py)       | 2021/09/10 |                |             |
 |  1995  |     countQuadruplets     |            |     [AC](./code/Solution_1995_countQuadruplets.py)     | 2021/09/08 |                |             |
+|  2227  | peakIndexInMountainArray |    Easy    | [AC](./code/Solution_2227_peakIndexInMountainArray.py) | 2021/10/14 |     Search     |    ★★★★☆    |
 |  5894  |      twoOutOfThree       |    Easy    |      [AC](./code/Solution_5894_twoOutOfThree.py)       | 2021/10/10 |     Array      |    ★★★☆☆    |
 |  5895  |      minOperations       |   Medium   |      [AC](./code/Solution_5895_minOperations.py)       | 2021/10/10 |      Math      |    ★★★★☆    |
 |  5896  |        StockPrice        |   Medium   |        [AC](./code/Solution_5896_StockPrice.py)        | 2021/10/11 |     Design     |    ★★★☆☆    |
