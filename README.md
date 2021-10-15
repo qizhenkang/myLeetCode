@@ -102,7 +102,9 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   68   |       fullJustify        |            |       [AC](./code/Solution_0068_fullJustify.py)        | 2021/09/09 |                |             |
 |   69   |          mySqrt          |            |          [AC](./code/Solution_0069_mySqrt.py)          | 2021/09/27 |                |             |
 |   70   |       climbStairs        |            |       [AC](./code/Solution_0070_climbStairs.py)        | 2021/09/10 |                |             |
+|   71   |       simplifyPath       |   Medium   |       [AC](./code/Solution_0071_simplifyPath.py)       | 2021/10/15 |     String     |    ★★★★☆    |
 |   73   |        setZeroes         |   Medium   |        [AC](./code/Solution_0073_setZeroes.py)         | 2021/10/13 |     Array      |    ★★★★☆    |
+|   74   |       searchMatrix       |   Medium   |       [AC](./code/Solution_0074_searchMatrix.py)       | 2021/10/15 |     Search     |    ★★★★☆    |
 |   75   |        sortColors        |            |        [AC](./code/Solution_0075_sortColors.py)        | 2021/09/03 |                |             |
 |   77   |         combine          |            |         [AC](./code/Solution_0077_combine.py)          | 2021/10/01 |                |             |
 |   94   |     inorderTraversal     |            |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |                |             |
