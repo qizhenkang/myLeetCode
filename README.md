@@ -13,7 +13,7 @@ At the same time, it may have some other effects. For instance, it may be helpfu
 
 ## Statistics
 
-The statistics are showed here.
+Some statistics are showed here.
 
 ![Figure of Hourly Distribution](.//image//HourlyDistribution.jpg)
 
