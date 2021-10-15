@@ -31,7 +31,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 
 | Number |          Title           | Difficulty |                       Status[^2]                       |  Time[^3]  | Classification | Mastery[^4] |
 | :----: | :----------------------: | :--------: | :----------------------------------------------------: | :--------: | :------------: | :---------: |
-|   1    |          twoSum          |    Easy    |         [AC](./code/Solution_0001_twoSum.cpp)          | 2020/12/04 |     array      |    ★☆☆☆☆    |
+|   1    |          twoSum          |    Easy    |         [AC](./code/Solution_0001_twoSum.cpp)          | 2020/12/04 |     Array      |    ★☆☆☆☆    |
 |   2    |      addTwoNumbers       |   Medium   |      [AC](./code/Solution_0002_addTwoNumbers.cpp)      | 2020/12/04 |  Linked List   |    ★☆☆☆☆    |
 |   3    | lengthOfLongestSubstring |   Medium   | [AC](./code/Solution_0003_lengthOfLongestSubstring.py) | 2020/12/04 |      Hash      |    ★☆☆☆☆    |
 |   4    |  findMedianSortedArrays  |    Hard    |  [AC](./code/Solution_0004_findMedianSortedArrays.py)  | 2020/12/04 |                |             |
@@ -106,6 +106,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   75   |        sortColors        |            |        [AC](./code/Solution_0075_sortColors.py)        | 2021/09/03 |                |             |
 |   76   |        minWindow         |   Medium   |        [AC](./code/Solution_0076_minWindow.py)         | 2021/10/15 |      Hash      |    ★★☆☆☆    |
 |   77   |         combine          |            |         [AC](./code/Solution_0077_combine.py)          | 2021/10/01 |                |             |
+|   78   |         subsets          |   Medium   |         [AC](./code/Solution_0078_subsets.py)          | 2021/10/15 |      Bit       |    ★★★★☆    |
 |   94   |     inorderTraversal     |            |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |                |             |
 |   98   |        isValidBST        |            |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |                |             |
 |   99   |       recoverTree        |            |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04 |                |             |
