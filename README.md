@@ -31,14 +31,13 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 
 | Number |          Title           | Difficulty |                       Status[^2]                       |  Time[^3]  | Classification | Mastery[^4] |
 | :----: | :----------------------: | :--------: | :----------------------------------------------------: | :--------: | :------------: | :---------: |
-|   1    |          Vector          |            |         [AC](./code/Solution_0001_Vector.cpp)          | 2020/12/04 |                |             |
-|   2    |         ListNode         |            |        [AC](./code/Solution_0002_ListNode.cpp)         | 2020/12/04 |                |             |
-|   3    |          String          |            |         [AC](./code/Solution_0003_String.cpp)          | 2020/12/04 |                |             |
-|   3    |        String_py         |            |        [AC](./code/Solution_0003_String_py.py)         | 2020/12/04 |                |             |
-|   4    |  findMedianSortedArrays  |            |  [AC](./code/Solution_0004_findMedianSortedArrays.py)  | 2020/12/04 |                |             |
-|   5    |          HuiWen          |            |          [AC](./code/Solution_0005_HuiWen.py)          | 2020/12/05 |                |             |
-|   6    |          ZTrans          |            |          [AC](./code/Solution_0006_ZTrans.py)          | 2020/12/05 |                |             |
-|   7    |         Reverse          |            |         [AC](./code/Solution_0007_Reverse.py)          | 2020/12/05 |                |             |
+|   1    |          twoSum          |    Easy    |         [AC](./code/Solution_0001_twoSum.cpp)          | 2020/12/04 |     array      |    ★☆☆☆☆    |
+|   2    |      addTwoNumbers       |   Medium   |      [AC](./code/Solution_0002_addTwoNumbers.cpp)      | 2020/12/04 |  Linked List   |    ★☆☆☆☆    |
+|   3    | lengthOfLongestSubstring |   Medium   | [AC](./code/Solution_0003_lengthOfLongestSubstring.py) | 2020/12/04 |      Hash      |    ★☆☆☆☆    |
+|   4    |  findMedianSortedArrays  |    Hard    |  [AC](./code/Solution_0004_findMedianSortedArrays.py)  | 2020/12/04 |                |             |
+|   5    |    longestPalindrome     |   Medium   |    [AC](./code/Solution_0005_longestPalindrome.py)     | 2020/12/05 |                |             |
+|   6    |         convert          |   Medium   |         [AC](./code/Solution_0006_convert.py)          | 2020/12/05 |                |             |
+|   7    |         reverse          |    Easy    |         [AC](./code/Solution_0007_reverse.py)          | 2020/12/05 |                |             |
 |   8    |          myAtoi          |            |          [AC](./code/Solution_0008_myAtoi.py)          | 2020/12/05 |                |             |
 |   9    |       isPalindrome       |            |       [AC](./code/Solution_0009_isPalindrome.py)       | 2020/12/06 |                |             |
 |   10   |      isMatch_UNEND       |            |      [WA](./code/Solution_0010_isMatch_UNEND.py)       | 2020/12/07 |                |             |
@@ -106,6 +105,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   73   |        setZeroes         |   Medium   |        [AC](./code/Solution_0073_setZeroes.py)         | 2021/10/13 |     Array      |    ★★★★☆    |
 |   74   |       searchMatrix       |   Medium   |       [AC](./code/Solution_0074_searchMatrix.py)       | 2021/10/15 |     Search     |    ★★★★☆    |
 |   75   |        sortColors        |            |        [AC](./code/Solution_0075_sortColors.py)        | 2021/09/03 |                |             |
+|   76   |        minWindow         |   Medium   |        [AC](./code/Solution_0076_minWindow.py)         | 2021/10/15 |      Hash      |    ★★☆☆☆    |
 |   77   |         combine          |            |         [AC](./code/Solution_0077_combine.py)          | 2021/10/01 |                |             |
 |   94   |     inorderTraversal     |            |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |                |             |
 |   98   |        isValidBST        |            |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |                |             |

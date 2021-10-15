@@ -26,7 +26,7 @@ class Solution:
         #     return True
         while left <= right:
             mid = (right+ left)//2 
-            print(left,mid,right)
+            # print(left,mid,right)
             x = matrix[mid // n][mid % n]
             if x < target:
                 left = mid + 1
