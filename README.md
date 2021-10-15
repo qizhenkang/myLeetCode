@@ -42,7 +42,6 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   9    |       isPalindrome       |            |       [AC](./code/Solution_0009_isPalindrome.py)       | 2020/12/06 |                |             |
 |   10   |         isMatch          |            |         [WA](./code/Solution_0010_isMatch.py)          | 2020/12/07 |                |             |
 |   11   |         maxArea          |            |         [AC](./code/Solution_0011_maxArea.py)          | 2020/12/07 |                |             |
-|   11   |       maxArea_On2        |            |       [AC](./code/Solution_0011_maxArea_On2.py)        | 2020/12/07 |                |             |
 |   12   |        intToRoman        |            |        [AC](./code/Solution_0012_intToRoman.py)        | 2020/12/07 |                |             |
 |   13   |        romanToInt        |            |        [AC](./code/Solution_0013_romanToInt.py)        | 2020/12/07 |                |             |
 |   14   |   longestCommonPrefix    |            |   [AC](./code/Solution_0014_longestCommonPrefix.py)    | 2020/12/07 |                |             |
