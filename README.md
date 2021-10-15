@@ -40,7 +40,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   7    |         reverse          |    Easy    |         [AC](./code/Solution_0007_reverse.py)          | 2020/12/05 |                |             |
 |   8    |          myAtoi          |            |          [AC](./code/Solution_0008_myAtoi.py)          | 2020/12/05 |                |             |
 |   9    |       isPalindrome       |            |       [AC](./code/Solution_0009_isPalindrome.py)       | 2020/12/06 |                |             |
-|   10   |      isMatch       |            |      [WA](./code/Solution_0010_isMatch.py)       | 2020/12/07 |                |             |
+|   10   |         isMatch          |            |         [WA](./code/Solution_0010_isMatch.py)          | 2020/12/07 |                |             |
 |   11   |         maxArea          |            |         [AC](./code/Solution_0011_maxArea.py)          | 2020/12/07 |                |             |
 |   11   |       maxArea_On2        |            |       [AC](./code/Solution_0011_maxArea_On2.py)        | 2020/12/07 |                |             |
 |   12   |        intToRoman        |            |        [AC](./code/Solution_0012_intToRoman.py)        | 2020/12/07 |                |             |
