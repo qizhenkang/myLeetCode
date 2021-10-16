@@ -107,6 +107,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   76   |        minWindow         |   Medium   |        [AC](./code/Solution_0076_minWindow.py)         | 2021/10/15 |      Hash      |    ★★☆☆☆    |
 |   77   |         combine          |            |         [AC](./code/Solution_0077_combine.py)          | 2021/10/01 |                |             |
 |   78   |         subsets          |   Medium   |         [AC](./code/Solution_0078_subsets.py)          | 2021/10/15 |      Bit       |    ★★★★☆    |
+|   79   |          exist           |   Medium   |          [AC](./code/Solution_0079_exist.py)           | 2021/10/16 |  Backtracking  |    ★★★★☆    |
 |   94   |     inorderTraversal     |            |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |                |             |
 |   98   |        isValidBST        |            |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |                |             |
 |   99   |       recoverTree        |            |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04 |                |             |
