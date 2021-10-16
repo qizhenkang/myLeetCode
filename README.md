@@ -38,57 +38,57 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   5    |    longestPalindrome     |   Medium   |    [AC](./code/Solution_0005_longestPalindrome.py)     | 2020/12/05 |                |             |
 |   6    |         convert          |   Medium   |         [AC](./code/Solution_0006_convert.py)          | 2020/12/05 |                |             |
 |   7    |         reverse          |    Easy    |         [AC](./code/Solution_0007_reverse.py)          | 2020/12/05 |                |             |
-|   8    |          myAtoi          |            |          [AC](./code/Solution_0008_myAtoi.py)          | 2020/12/05 |                |             |
-|   9    |       isPalindrome       |            |       [AC](./code/Solution_0009_isPalindrome.py)       | 2020/12/06 |                |             |
-|   10   |         isMatch          |            |         [WA](./code/Solution_0010_isMatch.py)          | 2020/12/07 |                |             |
-|   11   |         maxArea          |            |         [AC](./code/Solution_0011_maxArea.py)          | 2020/12/07 |                |             |
-|   12   |        intToRoman        |            |        [AC](./code/Solution_0012_intToRoman.py)        | 2020/12/07 |                |             |
-|   13   |        romanToInt        |            |        [AC](./code/Solution_0013_romanToInt.py)        | 2020/12/07 |                |             |
-|   14   |   longestCommonPrefix    |            |   [AC](./code/Solution_0014_longestCommonPrefix.py)    | 2020/12/07 |                |             |
-|   15   |         threeSum         |            |         [AC](./code/Solution_0015_threeSum.py)         | 2020/12/07 |                |             |
-|   16   |     threeSumClosest      |            |     [AC](./code/Solution_0016_threeSumClosest.py)      | 2020/12/08 |                |             |
-|   17   |    letterCombinations    |            |    [AC](./code/Solution_0017_letterCombinations.py)    | 2021/09/30 |                |             |
-|   18   |         fourSum          |            |         [WA](./code/Solution_0018_fourSum.py)          | 2021/08/06 |                |             |
-|   19   |     removeNthFromEnd     |            |     [AC](./code/Solution_0019_removeNthFromEnd.py)     | 2021/08/14 |                |             |
-|   20   |         isValid          |            |         [AC](./code/Solution_0020_isValid.py)          | 2021/08/10 |                |             |
-|   21   |      mergeTwoLists       |            |      [AC](./code/Solution_0021_mergeTwoLists.py)       | 2021/09/27 |                |             |
-|   22   |   generateParenthesis    |            |   [AC](./code/Solution_0022_generateParenthesis.py)    | 2021/09/30 |                |             |
-|   23   |       mergeKLists        |            |       [AC](./code/Solution_0023_mergeKLists.py)        | 2021/09/27 |                |             |
-|   24   |        swapPairs         |            |        [AC](./code/Solution_0024_swapPairs.py)         | 2021/09/29 |                |             |
-|   25   |      reverseKGroup       |            |      [AC](./code/Solution_0025_reverseKGroup.py)       | 2021/10/01 |                |             |
-|   26   |     removeDuplicates     |            |     [AC](./code/Solution_0026_removeDuplicates.py)     | 2021/08/15 |                |             |
-|   27   |      removeElement       |            |      [AC](./code/Solution_0027_removeElement.py)       | 2021/08/15 |                |             |
-|   28   |          strStr          |            |          [AC](./code/Solution_0028_strStr.py)          | 2021/08/17 |                |             |
+|   8    |          myAtoi          |   Medium   |          [AC](./code/Solution_0008_myAtoi.py)          | 2020/12/05 |                |             |
+|   9    |       isPalindrome       |    Easy    |       [AC](./code/Solution_0009_isPalindrome.py)       | 2020/12/06 |                |             |
+|   10   |         isMatch          |    Hard    |         [WA](./code/Solution_0010_isMatch.py)          | 2020/12/07 |                |             |
+|   11   |         maxArea          |   Medium   |         [AC](./code/Solution_0011_maxArea.py)          | 2020/12/07 |                |             |
+|   12   |        intToRoman        |   Medium   |        [AC](./code/Solution_0012_intToRoman.py)        | 2020/12/07 |                |             |
+|   13   |        romanToInt        |    Easy    |        [AC](./code/Solution_0013_romanToInt.py)        | 2020/12/07 |                |             |
+|   14   |   longestCommonPrefix    |    Easy    |   [AC](./code/Solution_0014_longestCommonPrefix.py)    | 2020/12/07 |                |             |
+|   15   |         threeSum         |   Medium   |         [AC](./code/Solution_0015_threeSum.py)         | 2020/12/07 |                |             |
+|   16   |     threeSumClosest      |   Medium   |     [AC](./code/Solution_0016_threeSumClosest.py)      | 2020/12/08 |                |             |
+|   17   |    letterCombinations    |   Medium   |    [AC](./code/Solution_0017_letterCombinations.py)    | 2021/09/30 |                |             |
+|   18   |         fourSum          |   Medium   |         [WA](./code/Solution_0018_fourSum.py)          | 2021/08/06 |                |             |
+|   19   |     removeNthFromEnd     |   Medium   |     [AC](./code/Solution_0019_removeNthFromEnd.py)     | 2021/08/14 |                |             |
+|   20   |         isValid          |    Easy    |         [AC](./code/Solution_0020_isValid.py)          | 2021/08/10 |                |             |
+|   21   |      mergeTwoLists       |    Easy    |      [AC](./code/Solution_0021_mergeTwoLists.py)       | 2021/09/27 |                |             |
+|   22   |   generateParenthesis    |   Medium   |   [AC](./code/Solution_0022_generateParenthesis.py)    | 2021/09/30 |                |             |
+|   23   |       mergeKLists        |    Hard    |       [AC](./code/Solution_0023_mergeKLists.py)        | 2021/09/27 |                |             |
+|   24   |        swapPairs         |   Medium   |        [AC](./code/Solution_0024_swapPairs.py)         | 2021/09/29 |                |             |
+|   25   |      reverseKGroup       |    Hard    |      [AC](./code/Solution_0025_reverseKGroup.py)       | 2021/10/01 |                |             |
+|   26   |     removeDuplicates     |    Easy    |     [AC](./code/Solution_0026_removeDuplicates.py)     | 2021/08/15 |                |             |
+|   27   |      removeElement       |    Easy    |      [AC](./code/Solution_0027_removeElement.py)       | 2021/08/15 |                |             |
+|   28   |          strStr          |    Easy    |          [AC](./code/Solution_0028_strStr.py)          | 2021/08/17 |                |             |
 |   29   |          divide          |   Medium   |          [AC](./code/Solution_0029_divide.py)          | 2021/10/12 |      Bit       |    ★☆☆☆☆    |
-|   30   |      findSubstring       |            |      [AC](./code/Solution_0030_findSubstring.py)       | 2021/10/01 |                |             |
-|   31   |     nextPermutation      |            |     [AC](./code/Solution_0031_nextPermutation.py)      | 2021/09/30 |                |             |
-|   32   | longestValidParentheses  |            | [AC](./code/Solution_0032_longestValidParentheses.py)  | 2021/09/25 |                |             |
-|   33   |          search          |            |          [AC](./code/Solution_0033_search.py)          | 2021/09/30 |                |             |
-|   34   |       searchRange        |            |       [AC](./code/Solution_0034_searchRange.py)        | 2021/09/30 |                |             |
-|   35   |       searchInsert       |            |       [AC](./code/Solution_0035_searchInsert.py)       | 2021/08/17 |                |             |
-|   36   |      isValidSudoku       |            |      [AC](./code/Solution_0036_isValidSudoku.py)       | 2021/10/01 |                |             |
-|   37   |       solveSudoku        |            |       [AC](./code/Solution_0037_solveSudoku.py)        | 2021/10/01 |                |             |
-|   38   |       countAndSay        |            |       [AC](./code/Solution_0038_countAndSay.py)        | 2021/10/01 |                |             |
-|   39   |      combinationSum      |            |      [AC](./code/Solution_0039_combinationSum.py)      | 2021/09/30 |                |             |
-|   40   |     combinationSum2      |            |     [AC](./code/Solution_0040_combinationSum2.py)      | 2021/09/30 |                |             |
-|   41   |   firstMissingPositive   |            |   [AC](./code/Solution_0041_firstMissingPositive.py)   | 2021/10/01 |                |             |
-|   42   |           trap           |            |           [AC](./code/Solution_0042_trap.py)           | 2021/09/26 |                |             |
-|   43   |         multiply         |            |         [AC](./code/Solution_0043_multiply.py)         | 2021/10/01 |                |             |
-|   45   |           jump           |            |           [AC](./code/Solution_0045_jump.py)           | 2021/10/02 |                |             |
-|   46   |         permute          |            |         [AC](./code/Solution_0046_permute.py)          | 2021/09/05 |                |             |
-|   46   |        permute_my        |            |        [AC](./code/Solution_0046_permute_my.py)        | 2021/09/06 |                |             |
-|   47   |      permuteUnique       |            |      [AC](./code/Solution_0047_permuteUnique.py)       | 2021/09/30 |                |             |
-|   48   |          rotate          |            |          [AC](./code/Solution_0048_rotate.py)          | 2021/10/02 |                |             |
+|   30   |      findSubstring       |    Hard    |      [AC](./code/Solution_0030_findSubstring.py)       | 2021/10/01 |                |             |
+|   31   |     nextPermutation      |   Medium   |     [AC](./code/Solution_0031_nextPermutation.py)      | 2021/09/30 |                |             |
+|   32   | longestValidParentheses  |    Hard    | [AC](./code/Solution_0032_longestValidParentheses.py)  | 2021/09/25 |                |             |
+|   33   |          search          |   Medium   |          [AC](./code/Solution_0033_search.py)          | 2021/09/30 |                |             |
+|   34   |       searchRange        |   Medium   |       [AC](./code/Solution_0034_searchRange.py)        | 2021/09/30 |                |             |
+|   35   |       searchInsert       |    Easy    |       [AC](./code/Solution_0035_searchInsert.py)       | 2021/08/17 |                |             |
+|   36   |      isValidSudoku       |   Medium   |      [AC](./code/Solution_0036_isValidSudoku.py)       | 2021/10/01 |                |             |
+|   37   |       solveSudoku        |    Hard    |       [AC](./code/Solution_0037_solveSudoku.py)        | 2021/10/01 |                |             |
+|   38   |       countAndSay        |   Medium   |       [AC](./code/Solution_0038_countAndSay.py)        | 2021/10/01 |                |             |
+|   39   |      combinationSum      |   Medium   |      [AC](./code/Solution_0039_combinationSum.py)      | 2021/09/30 |                |             |
+|   40   |     combinationSum2      |   Medium   |     [AC](./code/Solution_0040_combinationSum2.py)      | 2021/09/30 |                |             |
+|   41   |   firstMissingPositive   |    Hard    |   [AC](./code/Solution_0041_firstMissingPositive.py)   | 2021/10/01 |                |             |
+|   42   |           trap           |    Hard    |           [AC](./code/Solution_0042_trap.py)           | 2021/09/26 |                |             |
+|   43   |         multiply         |   Medium   |         [AC](./code/Solution_0043_multiply.py)         | 2021/10/01 |                |             |
+|   45   |           jump           |   Medium   |           [AC](./code/Solution_0045_jump.py)           | 2021/10/02 |                |             |
+|   46   |         permute          |   Medium   |         [AC](./code/Solution_0046_permute.py)          | 2021/09/05 |                |             |
+|   46   |        permute_my        |   Medium   |        [AC](./code/Solution_0046_permute_my.py)        | 2021/09/06 |                |             |
+|   47   |      permuteUnique       |   Medium   |      [AC](./code/Solution_0047_permuteUnique.py)       | 2021/09/30 |                |             |
+|   48   |          rotate          |   Medium   |          [AC](./code/Solution_0048_rotate.py)          | 2021/10/02 |                |             |
 |   49   |      groupAnagrams       |   Medium   |      [AC](./code/Solution_0049_groupAnagrams.py)       | 2021/10/04 |      Hash      |    ★★★★☆    |
 |   50   |          myPow           |   Medium   |          [AC](./code/Solution_0050_myPow.py)           | 2021/10/05 |     Array      |    ★★★★★    |
 |   51   |       solveNQueens       |    Hard    |       [AC](./code/Solution_0051_solveNQueens.py)       | 2021/10/16 |  Backtracking  |    ★★★☆☆    |
 |   52   |       totalNQueens       |    Hard    |       [AC](./code/Solution_0052_totalNQueens.py)       | 2021/10/16 |  Backtracking  |    ★★★☆☆    |
-|   53   |       maxSubArray        |            |       [AC](./code/Solution_0053_maxSubArray.py)        | 2021/09/25 |                |             |
+|   53   |       maxSubArray        |    Easy    |       [AC](./code/Solution_0053_maxSubArray.py)        | 2021/09/25 |                |             |
 |   54   |       spiralOrder        |   Medium   |       [AC](./code/Solution_0054_spiralOrder.py)        | 2021/10/05 |     Array      |    ★★★★☆    |
 |   55   |         canJump          |   Medium   |         [AC](./code/Solution_0055_canJump.py)          | 2021/10/06 |     Greedy     |    ★★★★★    |
 |   56   |          merge           |   Medium   |          [AC](./code/Solution_0056_merge.py)           | 2021/10/06 |    Sorting     |    ★★★★★    |
 |   57   |          insert          |   Medium   |          [AC](./code/Solution_0057_insert.py)          | 2021/10/07 |     Array      |    ★★☆☆☆    |
-|   58   |     lengthOfLastWord     |            |     [AC](./code/Solution_0058_lengthOfLastWord.py)     | 2021/09/27 |                |             |
+|   58   |     lengthOfLastWord     |    Easy    |     [AC](./code/Solution_0058_lengthOfLastWord.py)     | 2021/09/27 |                |             |
 |   59   |      generateMatrix      |   Medium   |      [AC](./code/Solution_0059_generateMatrix.py)      | 2021/10/07 |     Array      |    ★★★★☆    |
 |   60   |      getPermutation      |    Hard    |      [AC](./code/Solution_0060_getPermutation.py)      | 2021/10/08 |   Recursion    |    ★★★☆☆    |
 |   61   |       rotateRight        |   Medium   |       [AC](./code/Solution_0061_rotateRight.py)        | 2021/10/08 |  Linked List   |    ★★★☆☆    |
@@ -96,23 +96,23 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   63   | uniquePathsWithObstacles |   Medium   | [AC](./code/Solution_0063_uniquePathsWithObstacles.py) | 2021/10/13 |       DP       |    ★★★★☆    |
 |   64   |        minPathSum        |   Medium   |        [AC](./code/Solution_0064_minPathSum.py)        | 2021/10/11 |       DP       |    ★★★★☆    |
 |   65   |         isNumber         |    Hard    |         [AC](./code/Solution_0065_isNumber.py)         | 2021/10/12 |     String     |    ★☆☆☆☆    |
-|   66   |         plusOne          |            |         [AC](./code/Solution_0066_plusOne.py)          | 2021/09/27 |                |             |
-|   67   |        addBinary         |            |        [AC](./code/Solution_0067_addBinary.py)         | 2021/09/27 |                |             |
-|   68   |       fullJustify        |            |       [AC](./code/Solution_0068_fullJustify.py)        | 2021/09/09 |                |             |
-|   69   |          mySqrt          |            |          [AC](./code/Solution_0069_mySqrt.py)          | 2021/09/27 |                |             |
-|   70   |       climbStairs        |            |       [AC](./code/Solution_0070_climbStairs.py)        | 2021/09/10 |                |             |
+|   66   |         plusOne          |    Easy    |         [AC](./code/Solution_0066_plusOne.py)          | 2021/09/27 |                |             |
+|   67   |        addBinary         |    Easy    |        [AC](./code/Solution_0067_addBinary.py)         | 2021/09/27 |                |             |
+|   68   |       fullJustify        |    Hard    |       [AC](./code/Solution_0068_fullJustify.py)        | 2021/09/09 |                |             |
+|   69   |          mySqrt          |    Easy    |          [AC](./code/Solution_0069_mySqrt.py)          | 2021/09/27 |                |             |
+|   70   |       climbStairs        |    Easy    |       [AC](./code/Solution_0070_climbStairs.py)        | 2021/09/10 |                |             |
 |   71   |       simplifyPath       |   Medium   |       [AC](./code/Solution_0071_simplifyPath.py)       | 2021/10/15 |     String     |    ★★★★☆    |
 |   73   |        setZeroes         |   Medium   |        [AC](./code/Solution_0073_setZeroes.py)         | 2021/10/13 |     Array      |    ★★★★☆    |
 |   74   |       searchMatrix       |   Medium   |       [AC](./code/Solution_0074_searchMatrix.py)       | 2021/10/15 |     Search     |    ★★★★☆    |
-|   75   |        sortColors        |            |        [AC](./code/Solution_0075_sortColors.py)        | 2021/09/03 |                |             |
+|   75   |        sortColors        |   Medium   |        [AC](./code/Solution_0075_sortColors.py)        | 2021/09/03 |                |             |
 |   76   |        minWindow         |   Medium   |        [AC](./code/Solution_0076_minWindow.py)         | 2021/10/15 |      Hash      |    ★★☆☆☆    |
-|   77   |         combine          |            |         [AC](./code/Solution_0077_combine.py)          | 2021/10/01 |                |             |
+|   77   |         combine          |   Medium   |         [AC](./code/Solution_0077_combine.py)          | 2021/10/01 |                |             |
 |   78   |         subsets          |   Medium   |         [AC](./code/Solution_0078_subsets.py)          | 2021/10/15 |      Bit       |    ★★★★☆    |
 |   79   |          exist           |   Medium   |          [AC](./code/Solution_0079_exist.py)           | 2021/10/16 |  Backtracking  |    ★★★★☆    |
-|   94   |     inorderTraversal     |            |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |                |             |
-|   98   |        isValidBST        |            |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |                |             |
-|   99   |       recoverTree        |            |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04 |                |             |
-|  100   |        isSameTree        |            |        [AC](./code/Solution_0100_isSameTree.py)        | 2021/09/04 |                |             |
+|   94   |     inorderTraversal     |    Easy    |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |                |             |
+|   98   |        isValidBST        |   Medium   |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |                |             |
+|   99   |       recoverTree        |   Medium   |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04 |                |             |
+|  100   |        isSameTree        |    Easy    |        [AC](./code/Solution_0100_isSameTree.py)        | 2021/09/04 |                |             |
 |  101   |       isSymmetric        |            |       [AC](./code/Solution_0101_isSymmetric.py)        | 2021/09/04 |                |             |
 |  102   |        levelOrder        |            |        [AC](./code/Solution_0102_levelOrder.py)        | 2021/09/07 |                |             |
 |  103   |     zigzagLevelOrder     |            |     [AC](./code/Solution_0103_zigzagLevelOrder.py)     | 2021/09/07 |                |             |
