@@ -138,6 +138,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  223   |       computeArea        |            |       [AC](./code/Solution_0223_computeArea.py)        | 2021/09/30 |                |             |
 |  273   |      numberToWords       |    Hard    |      [AC](./code/Solution_0273_numberToWords.py)       | 2021/10/11 |     String     |    ★★★★★    |
 |  279   |        numSquares        |            |        [AC](./code/Solution_0279_numSquares.py)        | 2021/09/10 |                |             |
+|  282   |       addOperators       |    Hard    |       [AC](./code/Solution_0282_addOperators.py)       | 2021/10/16 |  Backtracking  |    ★☆☆☆☆    |
 |  284   |     PeekingIterator      |   Medium   |     [AC](./code/Solution_0284_PeekingIterator.py)      | 2021/10/05 |     Design     |    ★☆☆☆☆    |
 |  326   |      isPowerOfThree      |            |      [AC](./code/Solution_0326_isPowerOfThree.py)      | 2021/09/23 |                |             |
 |  352   |      SummaryRanges       |    Hard    |      [AC](./code/Solution_0352_SummaryRanges.py)       | 2021/10/09 |     Design     |    ★★☆☆☆    |
