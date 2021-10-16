@@ -179,6 +179,6 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  5896  |        StockPrice        |   Medium   |        [AC](./code/Solution_5896_StockPrice.py)        | 2021/10/11 |     Design     |    ★★★☆☆    |
 
 [^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
-[^2]: Current Status of the Problem. AC: ACCEPT
+[^2]: Current Status of the Problem. AC: Accepted; WA: Wrong Answer
 [^3]: Solved Time.
-[^4]: My own understanding score. If I am fully understanding it, I will change it to ★★★★★. Otherwise, ☆☆☆☆☆ will be recorded.
+[^4]: My score. If I understand it fully , I will change it to ★★★★★. Similarly, ☆☆☆☆☆ will be recorded if I don't have any idea about it.
