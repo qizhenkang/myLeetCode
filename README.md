@@ -76,7 +76,6 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   43   |         multiply         |   Medium   |         [AC](./code/Solution_0043_multiply.py)         | 2021/10/01 |      ---       |     ---     |
 |   45   |           jump           |   Medium   |           [AC](./code/Solution_0045_jump.py)           | 2021/10/02 |      ---       |     ---     |
 |   46   |         permute          |   Medium   |         [AC](./code/Solution_0046_permute.py)          | 2021/09/05 |      ---       |     ---     |
-|   46   |        permute_my        |   Medium   |        [AC](./code/Solution_0046_permute_my.py)        | 2021/09/06 |      ---       |     ---     |
 |   47   |      permuteUnique       |   Medium   |      [AC](./code/Solution_0047_permuteUnique.py)       | 2021/09/30 |      ---       |     ---     |
 |   48   |          rotate          |   Medium   |          [AC](./code/Solution_0048_rotate.py)          | 2021/10/02 |      ---       |     ---     |
 |   49   |      groupAnagrams       |   Medium   |      [AC](./code/Solution_0049_groupAnagrams.py)       | 2021/10/04 |      Hash      |    ★★★★☆    |
