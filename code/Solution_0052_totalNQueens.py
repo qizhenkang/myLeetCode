@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Oct  2 17:15:32 2021
+Created on Sat Oct 16 20:00:44 2021
 
 @author: qizhe
 """
@@ -44,39 +44,31 @@ class Solution:
         # 回溯的思路：
         #   1、下一个可行位置，递归搜索，从而保证所有情况都考虑到，这是最关键的一步
         #   2、感觉难点是，如何处理valid数组的复原问题
-        def dfs(n,result,current,invalid,i):
+        def dfs(n,current,invalid,i):
             if len(current) == n:
                 # 找到新答案，加入集合
-                resultStr = ['']*n 
-                for i in range(n):
-                    temp = ['.'] * n
-                    temp[current[i][1]] = 'Q'
-                    resultStr[i] = ''.join(temp)
-                result.append(resultStr)
-                return
+                return 1
             if i >= n:
-                return 
+                return 0
             # 只在这一行搜就可以了
+            result = 0
             for y in range(n):
                 if not invalid[0] >> y & 0b1 and not invalid[1] >> y+i & 0b1 and not invalid[2] >> y-i + n & 0b1 :
                     # 更新valid数组 只需要更新的是 左斜下方，正下方，右斜下方
                     invalid[0] |= 0b1 << y
                     invalid[1] |= 0b1 << y+i
                     invalid[2] |= 0b1 << y-i + n
-                    dfs(n,result,current+[[i,y]],invalid,i+1)
+                    result += dfs(n,current+[i],invalid,i+1)
                     invalid[0] &= ~(0b1 << y)
                     invalid[1] &= ~(0b1 << y+i)
                     invalid[2] &= ~(0b1 << y-i + n)
-            return
+            return result
         
-        result = []
-        current = []
+
         # 位运算改进
         invalid = [0,0,0]
-        dfs(n,result,current,invalid,0)
-        
-        return result
-
+        current = []
+        return dfs(n,current,invalid,0)
 if __name__ == '__main__':
     solu = Solution()
     

@@ -81,7 +81,8 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   48   |          rotate          |            |          [AC](./code/Solution_0048_rotate.py)          | 2021/10/02 |                |             |
 |   49   |      groupAnagrams       |   Medium   |      [AC](./code/Solution_0049_groupAnagrams.py)       | 2021/10/04 |      Hash      |    ★★★★☆    |
 |   50   |          myPow           |   Medium   |          [AC](./code/Solution_0050_myPow.py)           | 2021/10/05 |     Array      |    ★★★★★    |
-|   51   |       solveNQueens       |            |       [AC](./code/Solution_0051_solveNQueens.py)       | 2021/10/02 |                |             |
+|   51   |       solveNQueens       |    Hard    |       [AC](./code/Solution_0051_solveNQueens.py)       | 2021/10/16 |  Backtracking  |    ★★★☆☆    |
+|   52   |       totalNQueens       |    Hard    |       [AC](./code/Solution_0052_totalNQueens.py)       | 2021/10/16 |  Backtracking  |    ★★★☆☆    |
 |   53   |       maxSubArray        |            |       [AC](./code/Solution_0053_maxSubArray.py)        | 2021/09/25 |                |             |
 |   54   |       spiralOrder        |   Medium   |       [AC](./code/Solution_0054_spiralOrder.py)        | 2021/10/05 |     Array      |    ★★★★☆    |
 |   55   |         canJump          |   Medium   |         [AC](./code/Solution_0055_canJump.py)          | 2021/10/06 |     Greedy     |    ★★★★★    |
