@@ -179,10 +179,10 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  5894  |      twoOutOfThree       |    Easy    |      [AC](./code/Solution_5894_twoOutOfThree.py)       | 2021/10/10 |     Array      |    ★★★☆☆    |
 |  5895  |      minOperations       |   Medium   |      [AC](./code/Solution_5895_minOperations.py)       | 2021/10/10 |      Math      |    ★★★★☆    |
 |  5896  |        StockPrice        |   Medium   |        [AC](./code/Solution_5896_StockPrice.py)        | 2021/10/11 |     Design     |    ★★★☆☆    |
-|  5902  |   areNumbersAscending    |    Easy    |   [AC](./code/Solution_5902_areNumbersAscending.py)    | 2021/10/17 |                |    ★★★☆☆    |
-|  5903  |           Bank           |   Medium   |           [AC](./code/Solution_5903_Bank.py)           | 2021/10/17 |                |    ★★★☆☆    |
-|  5904  |    countMaxOrSubsets     |   Medium   |    [AC](./code/Solution_5904_countMaxOrSubsets.py)     | 2021/10/17 |                |    ★★★☆☆    |
-|  5905  |      secondMinimum       |    Hard    |      [WA](./code/Solution_5905_secondMinimum.py)       | 2021/10/17 |                |    ☆☆☆☆☆    |
+|  5902  |   areNumbersAscending    |    Easy    |   [AC](./code/Solution_5902_areNumbersAscending.py)    | 2021/10/17 |     String     |    ★★★☆☆    |
+|  5903  |           Bank           |   Medium   |           [AC](./code/Solution_5903_Bank.py)           | 2021/10/17 |     Design     |    ★★★☆☆    |
+|  5904  |    countMaxOrSubsets     |   Medium   |    [AC](./code/Solution_5904_countMaxOrSubsets.py)     | 2021/10/17 |  Backtracking  |    ★★★☆☆    |
+|  5905  |      secondMinimum       |    Hard    |      [WA](./code/Solution_5905_secondMinimum.py)       | 2021/10/17 |      ???       |    ☆☆☆☆☆    |
 
 [^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: Accepted; WA: Wrong Answer
