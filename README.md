@@ -139,6 +139,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  198   |           rob            |    ---     |           [AC](./code/Solution_0198_rob.py)            | 2021/09/10 |      ---       |     ---     |
 |  213   |           rob            |    ---     |           [AC](./code/Solution_0213_rob.py)            | 2021/09/26 |      ---       |     ---     |
 |  223   |       computeArea        |    ---     |       [AC](./code/Solution_0223_computeArea.py)        | 2021/09/30 |      ---       |     ---     |
+|  230   |       kthSmallest        |   Medium   |       [AC](./code/Solution_0230_kthSmallest.py)        | 2021/10/17 |      Tree      |    ★★★☆☆    |
 |  273   |      numberToWords       |    Hard    |      [AC](./code/Solution_0273_numberToWords.py)       | 2021/10/11 |     String     |    ★★★★★    |
 |  279   |        numSquares        |    ---     |        [AC](./code/Solution_0279_numSquares.py)        | 2021/09/10 |      ---       |     ---     |
 |  282   |       addOperators       |    Hard    |       [AC](./code/Solution_0282_addOperators.py)       | 2021/10/16 |  Backtracking  |    ★☆☆☆☆    |
@@ -178,6 +179,10 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  5894  |      twoOutOfThree       |    Easy    |      [AC](./code/Solution_5894_twoOutOfThree.py)       | 2021/10/10 |     Array      |    ★★★☆☆    |
 |  5895  |      minOperations       |   Medium   |      [AC](./code/Solution_5895_minOperations.py)       | 2021/10/10 |      Math      |    ★★★★☆    |
 |  5896  |        StockPrice        |   Medium   |        [AC](./code/Solution_5896_StockPrice.py)        | 2021/10/11 |     Design     |    ★★★☆☆    |
+|  5902  |   areNumbersAscending    |    Easy    |   [AC](./code/Solution_5902_areNumbersAscending.py)    | 2021/10/17 |                |    ★★★☆☆    |
+|  5903  |           Bank           |   Medium   |           [AC](./code/Solution_5903_Bank.py)           | 2021/10/17 |                |    ★★★☆☆    |
+|  5904  |    countMaxOrSubsets     |   Medium   |    [AC](./code/Solution_5904_countMaxOrSubsets.py)     | 2021/10/17 |                |    ★★★☆☆    |
+|  5905  |      secondMinimum       |    Hard    |      [WA](./code/Solution_5905_secondMinimum.py)       | 2021/10/17 |                |    ☆☆☆☆☆    |
 
 [^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: Accepted; WA: Wrong Answer
