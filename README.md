@@ -21,8 +21,8 @@ Some statistics are showed here.
 
 | Number |                             Contest Title                              | Score  | Global Ranking | Time       |
 | :----: | :--------------------------------------------------------------------: | :----: | :------------: | ---------- |
-|   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌ |  3997 / 13137  | 2021/10/10 |
-|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) | ✔✔✔❌  |  1964 / 11795  | 2021/10/17 |
+|   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌ |  1317 / 4260   | 2021/10/10 |
+|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) | ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
 
 ## My Coding Record
 
