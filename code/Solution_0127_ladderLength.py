@@ -33,8 +33,12 @@ class Solution:
             """
             depth = 0
             found = False
+            
+            # 建立层次队列
             queue = deque()
             queue.append(beginWord)
+            
+            # 建立访问集，防止多次访问/成环
             nextWordVisited = set()
             Visited = set()
             Visited.add(beginWord)

@@ -30,6 +30,10 @@ class Solution:
         2、建图我还不太懂，BFS 我也不太懂，这题做出来就见鬼了
         3、这题的内核是找最短路径，与周赛263最后一题极其相似，搞懂应该就可以做出周赛题了
         4、BFS+DFS
+        
+        重写答案测试：
+        1、通过，性能良好
+        2、与答案结构一致了
         """
         def __bfs(wordSet,graphDict,beginWord,endWord,wordLength):
             """
@@ -49,8 +53,12 @@ class Solution:
                     currentWord = queue.popleft()
                     # originalWord = currentWord
                     currentWordList = list(currentWord)
+                    
+                    # 逐个元素尝试，改动j位，是否存在
                     for j in range(wordLength):
                         originalChar = currentWordList[j]
+                        
+                        # 26个英文字母
                         for k in string.ascii_lowercase:
                             currentWordList[j] = k
                             newWord = "".join(currentWordList)
@@ -62,6 +70,7 @@ class Solution:
                                     if newWord == endWord:
                                         found = True
                                     
+                                    # 防止重复入队
                                     if newWord not in nextWordVisited:
                                         nextWordVisited.add(newWord)
                                         queue.append(newWord)
