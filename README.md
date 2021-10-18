@@ -28,11 +28,11 @@ Some statistics are showed here.
 
 ### Learning Record
 
-#### Breadth-First Search
+#### Search
 
 In weekly contest 263, the fourth problem is about **Breadth-first search**(BFS), which I was not familiar with.
 
-
+Therefore, a note about [Search](./note/Note_001_Search.md) is written to summarize the key points of DFS/Backtracking/BFS.
 
 ### Solved Problems List
 
