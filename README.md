@@ -4,6 +4,7 @@ This _Zhenkang[^1]_'s _LeetCode_ Repository(mainly by _Python_).
 
 When I entered my Ph.D. career, I found that what I love is not researching, but programming.
 Therefore, I started the journey of _LeetCode_ when I was in the second year of my Ph.D..
+
 It is not among core scientific researches, but a little source of happiness in the boring research career.
 At the same time, it may have some other effects. For instance, it may be helpful for seeking employment or my career advancement.
 
@@ -27,8 +28,6 @@ Some statistics are showed here.
 ## My Coding Record
 
 ### Learning Record
-
-#### Search
 
 In weekly contest 263, the fourth problem is about **Breadth-first search**(BFS), which I was not familiar with.
 
@@ -141,7 +140,8 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  121   |        maxProfit         |    ---     |        [AC](./code/Solution_0121_maxProfit.py)         | 2021/09/25 |      ---       |     ---     |
 |  122   |        maxProfit         |    ---     |        [AC](./code/Solution_0122_maxProfit.py)         | 2021/09/26 |      ---       |     ---     |
 |  123   |        maxProfit         |    ---     |        [AC](./code/Solution_0123_maxProfit.py)         | 2021/09/26 |      ---       |     ---     |
-|  127   |       ladderLength       |    Hard    |       [WA](./code/Solution_0127_ladderLength.py)       | 2021/10/18 |      BFS       |    ☆☆☆☆☆    |
+|  126   |       findLadders        |    Hard    |       [AC](./code/Solution_0126_findLadders.py)        | 2021/10/18 |      BFS       |    ★★☆☆☆    |
+|  127   |       ladderLength       |    Hard    |       [AC](./code/Solution_0127_ladderLength.py)       | 2021/10/18 |      BFS       |    ★★☆☆☆    |
 |  144   |    preorderTraversal     |    ---     |    [AC](./code/Solution_0144_preorderTraversal.py)     | 2021/09/03 |      ---       |     ---     |
 |  145   |    postorderTraversal    |    ---     |    [AC](./code/Solution_0145_postorderTraversal.py)    | 2021/09/04 |      ---       |     ---     |
 |  154   |         findMin          |    ---     |         [AC](./code/Solution_0154_findMin.py)          | 2021/08/28 |      ---       |     ---     |

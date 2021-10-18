@@ -4,9 +4,9 @@ Created on Mon Oct 18 14:48:12 2021
 
 @author: qizhe
 """
-from collections import defaultdict
 from typing import List
-from collections import deque
+from collections import defaultdict, deque
+import string
 
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
@@ -27,80 +27,58 @@ class Solution:
         3、这题的内核是找最短路径，与周赛263最后一题极其相似，搞懂应该就可以做出周赛题了
         """
         
-        def bfs(wordList,wordScoreList,currentWord,endWord,depth,wordLength,wordListLength,used):
-            print(currentWord,depth,wordListLength)
-            if currentWord == endWord:
-                # print(currentWord,depth)
-                return depth+1
-            if depth > wordListLength:
-                return 0
-            
-            # for v in range(wordLength):
-            #     if currentWord[v] != endWord[v]:
-            #         # 这里不好弄，是决策的关键
-            #         # 这里用贪婪，找相似度最大的？
-                    
-            scoreNow = 0
-            scoreMax = -1
-            nextWordNum = -1
-            for n in range(len(wordList)):
-                if wordList[n] == currentWord:
-                    used[n] = True
-                if used[n]:
-                    continue
-                scoreNow = 0
-                for i in range(wordLength):
-                    if currentWord[i] == wordList[n][i]:
-                        scoreNow += 1
-                if scoreNow >= wordLength-1:
-                    if wordScoreList[n] > scoreMax:
-                        scoreMax = wordScoreList[n]
-                        nextWordNum = n
-            result = 0
-            if nextWordNum > -1:
-                used[nextWordNum] = True
-                result = bfs(wordList,wordScoreList,wordList[nextWordNum],endWord,depth+1,wordLength,wordListLength,used)
-                used[nextWordNum] = False
-                        
-                    
-                    # currentWord[v] = 1
-                    # if currentWord in wordList:
-                    #     bfs(wordList,currentWord,endWord,depth+1,length)
-                    # currentWord[v] = 0
-            
-            return result
+        def __bfs(wordSet,beginWord,endWord,wordLength):
+            """
+            BFS建图，核心是建立按层建立图
+            """
+            depth = 0
+            found = False
+            queue = deque()
+            queue.append(beginWord)
+            nextWordVisited = set()
+            Visited = set()
+            Visited.add(beginWord)
+            while queue:
+                depth += 1
+                # 这里是因为队列是动态的，所以要保存最开始的长度
+                queueLength = len(queue)
+                for i in range(queueLength):
+                    currentWord = queue.popleft()
+                    # originalWord = currentWord
+                    currentWordList = list(currentWord)
+                    for j in range(wordLength):
+                        originalChar = currentWordList[j]
+                        for k in string.ascii_lowercase:
+                            currentWordList[j] = k
+                            newWord = "".join(currentWordList)
+                            # print(newWord)
+                            # 防止重复
+                            if newWord not in Visited:
+                                # 判断字典表里是否存在这个词
+                                if newWord in wordSet:
+                                    if newWord == endWord:
+                                        found = True
+                                    
+                                    if newWord not in nextWordVisited:
+                                        nextWordVisited.add(newWord)
+                                        queue.append(newWord)
+
+                        currentWordList[j] = originalChar
+                # 是不是这里提前结束，可以保证建的图是最短的？
+                if found:
+                    break
+                Visited |=  nextWordVisited
+                nextWordVisited = set()
+
+            return depth+1 if found else 0
+
+        wordSet = set(wordList)
+        if not wordSet or endWord not in wordSet:
+            return 0
         
         wordLength = len(endWord)
-        wordListLength = len(wordList)
-        # beginWordVector = [0]*N
-        # endWordVector = [0]*N
-        # for i in range(N):
-        #     beginWordVector[i] = ord(beginWord[i])
-        #     endWordVector[i] = ord(endWord[i])
-        wordScoreList = [0]*wordListLength
-        for n in range(wordListLength):
-            for i in range(wordLength):
-                if wordList[n][i] == endWord[i]:
-                    wordScoreList[n] += 1
-        # print(wordScoreList)
-            
         
-        # wordVectorList = []
-        # for word in wordList:
-        #     wordVector = [0]*N
-        #     for i in range(N):
-        #         wordVector[i] = ord(word[i])
-        #     wordVectorList.append(wordVector)
-        # print(wordVectorList,beginWordVector,endWordVector)
-        if wordLength not in wordScoreList:
-            return 0
-        # 词向量已知之后，就可以搜索了吧？
-        
-        # print(beginWordVector)
-        used = [False] * wordListLength
-        
-        
-        return bfs(wordList,wordScoreList,beginWord,endWord,0,wordLength,wordListLength,used)
+        return __bfs(wordSet,beginWord,endWord,wordLength)
     
 if __name__ == '__main__':
     solu = Solution()
@@ -112,7 +90,7 @@ if __name__ == '__main__':
     beginWord = "hit"
     endWord = "cog"
     wordList = ["hot","cot",'cog']
-    wordList = ["hot","dot","dog","lot","log"]
+    wordList = ["hot","dot","dog","lot","log","cog"]
     beginWord = "ymain"
     endWord = "oecij"
     wordList = ["ymann","yycrj","oecij","ymcnj","yzcrj","yycij","xecij","yecij","ymanj","yzcnj","ymain"]
