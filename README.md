@@ -26,6 +26,16 @@ Some statistics are showed here.
 
 ## My Coding Record
 
+### Learning Record
+
+#### Breadth-First Search
+
+In weekly contest 263, the fourth problem is about **Breadth-first search**(BFS), which I was not familiar with.
+
+
+
+### Solved Problems List
+
 Some interesting Problems are listed. For searching and reviewing easily, the difficulty, status and addressed time are recorded.
 
 For example, the first recorded problem is **groupAnagrams**, whose difficulty is **Medium**. The time when got _accepted_ is _2021/10/04_. In the last column, my own understanding score on the problem are showed.
@@ -131,6 +141,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  121   |        maxProfit         |    ---     |        [AC](./code/Solution_0121_maxProfit.py)         | 2021/09/25 |      ---       |     ---     |
 |  122   |        maxProfit         |    ---     |        [AC](./code/Solution_0122_maxProfit.py)         | 2021/09/26 |      ---       |     ---     |
 |  123   |        maxProfit         |    ---     |        [AC](./code/Solution_0123_maxProfit.py)         | 2021/09/26 |      ---       |     ---     |
+|  127   |       ladderLength       |    Hard    |       [WA](./code/Solution_0127_ladderLength.py)       | 2021/10/18 |      BFS       |    ☆☆☆☆☆    |
 |  144   |    preorderTraversal     |    ---     |    [AC](./code/Solution_0144_preorderTraversal.py)     | 2021/09/03 |      ---       |     ---     |
 |  145   |    postorderTraversal    |    ---     |    [AC](./code/Solution_0145_postorderTraversal.py)    | 2021/09/04 |      ---       |     ---     |
 |  154   |         findMin          |    ---     |         [AC](./code/Solution_0154_findMin.py)          | 2021/08/28 |      ---       |     ---     |
