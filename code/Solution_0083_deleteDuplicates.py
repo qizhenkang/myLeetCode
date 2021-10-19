@@ -65,7 +65,7 @@ if __name__ == '__main__':
     # wordList = ["ymann","yycrj","oecij","ymcnj","yzcrj","yycij","xecij","yecij","ymanj","yzcnj","ymain"]
     # head5 = ListNode(2)
     # head4 = ListNode(2,head5)
-    head3 = ListNode(2)
+    head3 = ListNode(1)
     head2 = ListNode(1,head3)
     head1 = ListNode(1,head2)
     
