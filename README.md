@@ -31,7 +31,7 @@ Some statistics are showed here.
 
 In weekly contest 263, the fourth problem is about **Breadth-first search**(BFS), which I was not familiar with.
 
-Therefore, a note about [Search](./note/Note_001_Search.md) is written to summarize the key points of _DFS_/_Backtracking_/_BFS_.
+Therefore, a note about [Search](./note/Not_001_Search.md) is written to summarize the key points of _DFS_/_Backtracking_/_BFS_.
 
 ### Solved Problems List
 
@@ -120,6 +120,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   79   |          exist           |   Medium   |          [AC](./code/Solution_0079_exist.py)           | 2021/10/16 |  Backtracking  |    ★★★★☆    |
 |   80   |     removeDuplicates     |   Medium   |     [AC](./code/Solution_0080_removeDuplicates.py)     | 2021/10/16 |     Array      |    ★★★☆☆    |
 |   81   |          search          |   Medium   |          [AC](./code/Solution_0081_search.py)          | 2021/10/16 |     Search     |    ★★★☆☆    |
+|   82   |     deleteDuplicates     |   Medium   |     [AC](./code/Solution_0082_deleteDuplicates.py)     | 2021/10/19 |  Linked List   |    ★★★☆☆    |
 |   94   |     inorderTraversal     |    Easy    |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |      ---       |     ---     |
 |   98   |        isValidBST        |   Medium   |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |      ---       |     ---     |
 |   99   |       recoverTree        |   Medium   |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04 |      ---       |     ---     |
@@ -197,7 +198,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  5902  |   areNumbersAscending    |    Easy    |   [AC](./code/Solution_5902_areNumbersAscending.py)    | 2021/10/17 |     String     |    ★★★☆☆    |
 |  5903  |           Bank           |   Medium   |           [AC](./code/Solution_5903_Bank.py)           | 2021/10/17 |     Design     |    ★★★☆☆    |
 |  5904  |    countMaxOrSubsets     |   Medium   |    [AC](./code/Solution_5904_countMaxOrSubsets.py)     | 2021/10/17 |  Backtracking  |    ★★★☆☆    |
-|  5905  |      secondMinimum       |    Hard    |      [WA](./code/Solution_5905_secondMinimum.py)       | 2021/10/17 |      BFS       |    ☆☆☆☆☆    |
+|  5905  |      secondMinimum       |    Hard    |      [AC](./code/Solution_5905_secondMinimum.py)       | 2021/10/19 |      BFS       |    ☆☆☆☆☆    |
 
 [^1]: More information about Zhenkang. -> [Zhenkang's Personal Page](https://qizhenkang.github.io/)
 [^2]: Current Status of the Problem. AC: Accepted; WA: Wrong Answer
