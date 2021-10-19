@@ -121,6 +121,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |   80   |     removeDuplicates     |   Medium   |     [AC](./code/Solution_0080_removeDuplicates.py)     | 2021/10/16 |     Array      |    ★★★☆☆    |
 |   81   |          search          |   Medium   |          [AC](./code/Solution_0081_search.py)          | 2021/10/16 |     Search     |    ★★★☆☆    |
 |   82   |     deleteDuplicates     |   Medium   |     [AC](./code/Solution_0082_deleteDuplicates.py)     | 2021/10/19 |  Linked List   |    ★★★☆☆    |
+|   83   |     deleteDuplicates     |    Easy    |     [AC](./code/Solution_0083_deleteDuplicates.py)     | 2021/10/19 |  Linked List   |    ★★★☆☆    |
 |   94   |     inorderTraversal     |    Easy    |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |      ---       |     ---     |
 |   98   |        isValidBST        |   Medium   |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |      ---       |     ---     |
 |   99   |       recoverTree        |   Medium   |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04 |      ---       |     ---     |
