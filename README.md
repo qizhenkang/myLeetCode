@@ -149,6 +149,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |  166   |    fractionToDecimal     |    ---     |    [AC](./code/Solution_0166_fractionToDecimal.py)     | 2021/10/03 |      ---       |     ---     |
 |  187   | findRepeatedDnaSequences |   Medium   | [AC](./code/Solution_0187_findRepeatedDnaSequences.py) | 2021/10/08 |      Bit       |    ★★★★☆    |
 |  198   |           rob            |    ---     |           [AC](./code/Solution_0198_rob.py)            | 2021/09/10 |      ---       |     ---     |
+|  211   |      WordDictionary      |   Medium   |      [AC](./code/Solution_0211_WordDictionary.py)      | 2021/10/19 |     Design     |    ★☆☆☆☆    |
 |  213   |           rob            |    ---     |           [AC](./code/Solution_0213_rob.py)            | 2021/09/26 |      ---       |     ---     |
 |  223   |       computeArea        |    ---     |       [AC](./code/Solution_0223_computeArea.py)        | 2021/09/30 |      ---       |     ---     |
 |  230   |       kthSmallest        |   Medium   |       [AC](./code/Solution_0230_kthSmallest.py)        | 2021/10/17 |      Tree      |    ★★★☆☆    |
