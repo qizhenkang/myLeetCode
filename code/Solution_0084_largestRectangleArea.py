@@ -5,6 +5,8 @@ Created on Wed Oct 20 09:58:31 2021
 @author: qizhe
 """
 from typing import List
+
+
 class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         """
@@ -19,35 +21,44 @@ class Solution:
         答案：
         1、单调栈，本质上是要找_每个矩形的左右边沿_然后取最大即可
         2、还没有完全理解
+
+        测试：
+        1、错了3次，理解不到位，还需要在看
         """
-        stack = [0]
+
+        stack = []
+        heights = [0] + heights + [0]
         N = len(heights)
-        areaList = [0]*N
-        # left = 
-        # for i in range(N):
-        #     if stack:
-        #         # 栈不为空 
-                
-        #     stack.append(heights[i])
-        
-    
-        
-        return 0
-    
+        result = 0
+        for i in range(1, N):
+            while stack and (i == N or heights[i] < heights[stack[-1]]):
+                curHeight = heights[stack.pop()]
+                # print(i,stack)
+                if stack:
+                    curWidth = i - 1 - stack[-1]
+                else:
+                    curWidth = i - 1
+
+                # print(curHeight, '*', '(', i, '-', stack[-1], ') = ', curHeight * curWidth)
+                # print(i, curHeight, '*', curWidth, ' = ', curHeight * curWidth)
+
+                result = max(result, curHeight * curWidth)
+            # 栈应当存左边界
+            # if i < N:
+            stack.append(i)
+        return result
+
+
 if __name__ == '__main__':
     solu = Solution()
 
     # nums = [3,2,1,5]
+
     n = 8
-    inputList = [2,1,5,6,2,3]
+    inputList = [1]
+    inputList = [2, 1, 5, 6, 2, 3]
+    inputList = [2, 2]
     # time = 3
-    # beginWord = "hit"
-    # endWord = "cog"
-    # wordList = ["hot","cot",'cog']
-    # wordList = ["hot","dot","dog","lot","log","cog"]
-    # beginWord = "a"
-    # endWord = "c"
-    # wordList = ["a","b","c"]
     # beginWord = "ymain"
     # endWord = "oecij"
     # wordList = ["ymann","yycrj","oecij","ymcnj","yzcrj","yycij","xecij","yecij","ymanj","yzcnj","ymain"]
