@@ -122,6 +122,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |      81      |          search          |   Medium   |          [AC](./code/Solution_0081_search.py)          | 2021/10/16 |     Search     |    ★★★☆☆    |
 |      82      |     deleteDuplicates     |   Medium   |     [AC](./code/Solution_0082_deleteDuplicates.py)     | 2021/10/19 |  Linked List   |    ★★★☆☆    |
 |      83      |     deleteDuplicates     |    Easy    |     [AC](./code/Solution_0083_deleteDuplicates.py)     | 2021/10/19 |  Linked List   |    ★★★☆☆    |
+|      84      |   largestRectangleArea   |    Hard    |   [WA](./code/Solution_0084_largestRectangleArea.py)   | 2021/10/20 |     Stack      |    ☆☆☆☆☆    |
 |      94      |     inorderTraversal     |    Easy    |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |      ---       |     ---     |
 |      98      |        isValidBST        |   Medium   |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |      ---       |     ---     |
 |      99      |       recoverTree        |   Medium   |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04 |      ---       |     ---     |
@@ -172,6 +173,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |     441      |       arrangeCoins       |    Easy    |       [AC](./code/Solution_0441_arrangeCoins.py)       | 2021/10/10 |      Math      |    ★★★★☆    |
 |     447      |    numberOfBoomerangs    |    ---     |    [AC](./code/Solution_0447_numberOfBoomerangs.py)    | 2021/09/13 |      ---       |     ---     |
 |     451      |      frequencySort       |    ---     |      [AC](./code/Solution_0451_frequencySort.py)       | 2021/08/28 |      ---       |     ---     |
+|     453      |         minMoves         |    Easy    |         [AC](./code/Solution_0453_minMoves.py)         | 2021/10/20 |     Array      |    ★★★★★    |
 |     470      |          rand10          |    ---     |          [AC](./code/Solution_0470_rand10.py)          | 2021/09/05 |      ---       |     ---     |
 |     476      |      findComplement      |    Easy    |      [AC](./code/Solution_0476_findComplement.py)      | 2021/10/18 |      Bit       |    ★★★☆☆    |
 |     482      |   licenseKeyFormatting   |    Easy    |   [AC](./code/Solution_0482_licenseKeyFormatting.py)   | 2021/10/04 |     String     |    ★★☆☆☆    |
