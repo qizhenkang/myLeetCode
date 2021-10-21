@@ -93,13 +93,20 @@ class myFunction:
         yearsDict = {}
         yearsDict[2020] = [0]*12
         yearsDict[2021] = [0] * 12
-
+        
         for name in items:
             if name[:9] == 'Solution_':
                 # 获取文件时间
                 unixTime = os.path.getmtime(fileFolder+name)
                 localTime = time.localtime(unixTime)
-                hourslist[localTime.tm_hour] +=1
+                # print(localTime)
+                # 直接tm_hour 这样统计出来的是0-60分，而画图却是以整点画图
+                # 所以应该是+-30统计
+                # hourslist[localTime.tm_hour] +=1
+                if localTime.tm_min >= 30:
+                    hourslist[(localTime.tm_hour + 1) %24] +=1
+                else:
+                    hourslist[localTime.tm_hour] +=1
                 yearsDict[localTime.tm_year][localTime.tm_mon-1] += 1
 
         return hourslist,yearsDict
@@ -109,9 +116,10 @@ if __name__ == '__main__':
     myfunc = myFunction()
     # Statistics
     # hourslist, yearsDict = myfunc.statistics('./code/')
-    hourslist = [4, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22, 10, 5, 8, 10, 11, 7, 16, 1, 13, 16, 4, 2, 4]
-    yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 38, 0, 0]}
-    
+    # hourslist = [4, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22, 10, 5, 8, 10, 11, 7, 16, 1, 13, 16, 4, 2, 4]
+    # yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 38, 0, 0]}
+    hourslist = [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 20, 6, 6, 10, 12, 10, 19, 4, 10, 15, 11, 7, 9]
+    yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 70, 0, 0]}
     totalProblems = sum(hourslist)
     
     plt.style.use('dark_background')
