@@ -89,17 +89,19 @@ class myFunction:
         items = os.listdir(fileFolder)
         # 每日提交时间统计
         hourslist = [0] * 24
+        dayslist = [0] * 365
         # 年份/月份统计 （当前共涉及2年）
         yearsDict = {}
         yearsDict[2020] = [0]*12
         yearsDict[2021] = [0] * 12
+        
         
         for name in items:
             if name[:9] == 'Solution_':
                 # 获取文件时间
                 unixTime = os.path.getmtime(fileFolder+name)
                 localTime = time.localtime(unixTime)
-                # print(localTime)
+                # 统计小时分布
                 # 直接tm_hour 这样统计出来的是0-60分，而画图却是以整点画图
                 # 所以应该是+-30统计
                 # hourslist[localTime.tm_hour] +=1
@@ -107,24 +109,37 @@ class myFunction:
                     hourslist[(localTime.tm_hour + 1) %24] +=1
                 else:
                     hourslist[localTime.tm_hour] +=1
+                
+                # 统计每日刷题数
+                day_num = 364 - (int(time.mktime(time.localtime())) - int(time.mktime(localTime))) // (24 * 60 * 60)
+                if day_num >= 364 or day_num <= 0:
+                    # print(day_num)
+                    pass
+                else:
+                    dayslist[day_num] += 1
+                # 统计年月份刷题数
                 yearsDict[localTime.tm_year][localTime.tm_mon-1] += 1
 
-        return hourslist,yearsDict
+        return hourslist,yearsDict,dayslist
                 
 
 if __name__ == '__main__':
     myfunc = myFunction()
     # Statistics
-    # hourslist, yearsDict = myfunc.statistics('./code/')
+    hourslist, yearsDict,dayslist = myfunc.statistics('./code/')
     # hourslist = [4, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22, 10, 5, 8, 10, 11, 7, 16, 1, 13, 16, 4, 2, 4]
     # yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 38, 0, 0]}
-    hourslist = [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 20, 6, 6, 10, 12, 10, 19, 4, 10, 15, 11, 7, 9]
-    yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 70, 0, 0]}
+    # hourslist = [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 20, 6, 6, 10, 12, 10, 19, 4, 10, 15, 11, 7, 9]
+    # yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 70, 0, 0]}
     totalProblems = sum(hourslist)
+     # 设置字号
+    fontSize = 12
+    myDPI = 150
+    figSize = (8, 4.5)
     
     plt.style.use('dark_background')
     githubColor = [13/255,17/255,23/255] # 匹配github色彩
-    fig_hours, ax = plt.subplots(figsize=(8, 4),facecolor=githubColor) # ,facecolor='black'
+    fig_hours, ax = plt.subplots(figsize=figSize,facecolor=githubColor) # ,facecolor='black'
     hours = [str(i) for i in range(24)]
     hourslist_percent = [ i / totalProblems * 100  for i in hourslist]
     hourscmap = plt.cm.get_cmap('tab20c')
@@ -135,19 +150,17 @@ if __name__ == '__main__':
         label.set_visible(False)
     
     
-    # 设置字号
-    fontSize = 10
-    myDPI = 150
+   
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
-    plt.xlabel('Time / hour',fontsize=fontSize+3)
-    plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
-    plt.title("Hourly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
+    plt.xlabel('Time / hour',fontsize=fontSize+2)
+    plt.ylabel('The percentage of problems / %',fontsize=fontSize+2)
+    plt.title("Hourly Distribution of Zhenkang's Study Time", fontsize=fontSize+4) # 设置标题
     plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     
     # plt.xticks(fontsize = 30)
     
-    fig_months, ax = plt.subplots(figsize=(8, 4),facecolor=githubColor)
+    fig_months, ax = plt.subplots(figsize=figSize,facecolor=githubColor)
     months = [calendar.month_abbr[i] for i in range(1,13)]
     monthscmap = plt.cm.get_cmap('tab20c')
     totalProblems2021 = sum(yearsDict[2021])
@@ -164,12 +177,28 @@ if __name__ == '__main__':
     # fontSize = 15
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
-    plt.xlabel('Time / month',fontsize=fontSize+3)
-    plt.ylabel('The percentage of problems / %',fontsize=fontSize+3)
-    plt.title("Monthly Distribution of Zhenkang's Study Time", fontsize=fontSize+5) # 设置标题
+    plt.xlabel('Time / month',fontsize=fontSize+2)
+    plt.ylabel('The percentage of problems / %',fontsize=fontSize+2)
+    plt.title("Monthly Distribution of Zhenkang's Study Time in 2021", fontsize=fontSize+4) # 设置标题
     plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     # plt.xticks(fontsize = 30)
     
+    fig_days, ax = plt.subplots(figsize = figSize,facecolor=githubColor)
+    daysumlist = [0]
+    for i in range(1,len(dayslist)):
+        daysumlist.append(daysumlist[i-1]+dayslist[i])
+    # print(daysumlist)
+    ax.plot(daysumlist)
+    ax.set_facecolor(githubColor)
+    fig_months.set_facecolor(githubColor)
+    
+    plt.xticks(size=fontSize)
+    plt.yticks(size=fontSize)
+    plt.xlabel('Time / day',fontsize=fontSize+2)
+    plt.ylabel('The number of problems',fontsize=fontSize+2)
+    plt.title("The Cumulative Curve of Zhenkang's Daily Problems", fontsize=fontSize+4) # 设置标题
+    plt.savefig('.//image//DailyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+
     
     # Name2MarkdownList
     # strlist = myfunc.Name2MarkdownList('E:\\Python_Projects\\LeetCode\\')
