@@ -124,6 +124,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |      83      |     deleteDuplicates     |    Easy    |     [AC](./code/Solution_0083_deleteDuplicates.py)     | 2021/10/19 |  Linked List   |    ★★★☆☆    |
 |      84      |   largestRectangleArea   |    Hard    |   [AC](./code/Solution_0084_largestRectangleArea.py)   | 2021/10/21 |     Stack      |    ★★☆☆☆    |
 |      85      |     maximalRectangle     |    Hard    |     [AC](./code/Solution_0085_maximalRectangle.py)     | 2021/10/21 |     Stack      |    ★★☆☆☆    |
+|      86      |        partition         |   Medium   |        [AC](./code/Solution_0086_partition.py)         | 2021/10/21 |  Linked List   |    ★★★★★    |
 |      89      |         grayCode         |   Medium   |         [AC](./code/Solution_0089_grayCode.py)         | 2021/10/20 |      Math      |    ★★★☆☆    |
 |      94      |     inorderTraversal     |    Easy    |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03 |      ---       |     ---     |
 |      98      |        isValidBST        |   Medium   |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03 |      ---       |     ---     |
