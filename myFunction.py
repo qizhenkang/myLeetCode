@@ -126,11 +126,11 @@ class myFunction:
 if __name__ == '__main__':
     myfunc = myFunction()
     # Statistics
-    hourslist, yearsDict,dayslist = myfunc.statistics('./code/')
+    # hourslist, yearsDict,dayslist = myfunc.statistics('./code/')
     # hourslist = [4, 0, 0, 0, 0, 0, 0, 0, 0, 3, 22, 10, 5, 8, 10, 11, 7, 16, 1, 13, 16, 4, 2, 4]
     # yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 38, 0, 0]}
-    # hourslist = [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 20, 6, 6, 10, 12, 10, 19, 4, 10, 15, 11, 7, 9]
-    # yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 70, 0, 0]}
+    hourslist = [5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 24, 20, 6, 6, 10, 12, 10, 19, 4, 10, 15, 11, 7, 9]
+    yearsDict = {2020: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18], 2021: [0, 0, 0, 0, 0, 0, 0, 12, 68, 70, 0, 0]}
     totalProblems = sum(hourslist)
      # 设置字号
     fontSize = 12
@@ -148,15 +148,17 @@ if __name__ == '__main__':
     ax.set_facecolor(githubColor)
     for label in ax.xaxis.get_ticklabels()[1::2]:
         label.set_visible(False)
+    # ax.figure.set_size_inches(1, 1)
     
-    
+    # ax = sns.countplot(x="downNetwork", data=offline_data_shuffle)
+    # plt.tight_layout()
    
     plt.xticks(size=fontSize)
     plt.yticks(size=fontSize)
     plt.xlabel('Time / hour',fontsize=fontSize+2)
     plt.ylabel('The percentage of problems / %',fontsize=fontSize+2)
     plt.title("Hourly Distribution of Zhenkang's Study Time", fontsize=fontSize+4) # 设置标题
-    plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+    # plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     
     # plt.xticks(fontsize = 30)
     
@@ -170,8 +172,8 @@ if __name__ == '__main__':
     ax.set_facecolor(githubColor)
     fig_months.set_facecolor(githubColor)
     # plt.plot(hourslist)
-    print(hourslist)
-    print(yearsDict)
+    # print(hourslist)
+    # print(yearsDict)
     
     # 设置字号
     # fontSize = 15
@@ -180,7 +182,7 @@ if __name__ == '__main__':
     plt.xlabel('Time / month',fontsize=fontSize+2)
     plt.ylabel('The percentage of problems / %',fontsize=fontSize+2)
     plt.title("Monthly Distribution of Zhenkang's Study Time in 2021", fontsize=fontSize+4) # 设置标题
-    plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+    # plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     # plt.xticks(fontsize = 30)
     
     fig_days, ax = plt.subplots(figsize = figSize,facecolor=githubColor)
@@ -197,7 +199,7 @@ if __name__ == '__main__':
     plt.xlabel('Time / day',fontsize=fontSize+2)
     plt.ylabel('The number of problems',fontsize=fontSize+2)
     plt.title("The Cumulative Curve of Zhenkang's Daily Problems", fontsize=fontSize+4) # 设置标题
-    plt.savefig('.//image//DailyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+    # plt.savefig('.//image//DailyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
 
     
     # Name2MarkdownList
