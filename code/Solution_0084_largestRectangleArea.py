@@ -24,28 +24,35 @@ class Solution:
 
         测试：
         1、错了3次，理解不到位，还需要在看
+        2、又过了一天，再调试，懂了，其实是目标搞清楚了，就是要把握本质
+        3、本质就是要对比每一个小矩形的最大面积，逐步向前扫描，若单调增（or不减），则压栈
+        4、若减，则出栈，表明至少找到了一个
         """
 
         stack = []
-        heights = [0] + heights + [0]
+        # heights = heights
         N = len(heights)
         result = 0
-        for i in range(1, N):
-            while stack and (i == N or heights[i] < heights[stack[-1]]):
-                curHeight = heights[stack.pop()]
-                # print(i,stack)
-                if stack:
-                    curWidth = i - 1 - stack[-1]
-                else:
-                    curWidth = i - 1
-
+        for i in range(N+1):
+            while stack and (i == N or heights[i] < heights[stack[-1]]):# (i == N or heights[i] < heights[stack[-1]]):
+                # 当前Bar的最大面积
+                curBar = stack.pop()
+                # 当前高度
+                curHeight = heights[curBar]
+                # 当前右端为i-1，当前左端为栈
+                curLeft = stack[-1] if stack else -1
+                curWidth = i - 1 - curLeft
+                
                 # print(curHeight, '*', '(', i, '-', stack[-1], ') = ', curHeight * curWidth)
                 # print(i, curHeight, '*', curWidth, ' = ', curHeight * curWidth)
 
                 result = max(result, curHeight * curWidth)
-            # 栈应当存左边界
-            # if i < N:
-            stack.append(i)
+                print(i,stack,curLeft,curBar,curHeight * curWidth)
+            if i < N:
+                stack.append(i)
+        # while stack:
+            
+        # print(stack)
         return result
 
 
@@ -56,8 +63,8 @@ if __name__ == '__main__':
 
     n = 8
     inputList = [1]
-    inputList = [2, 1, 5, 6, 2, 3]
-    inputList = [2, 2]
+    inputList = [2, 0, 5, 6, 2, 3]
+    # inputList = [2, 2]
     # time = 3
     # beginWord = "ymain"
     # endWord = "oecij"
