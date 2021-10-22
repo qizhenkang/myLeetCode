@@ -41,7 +41,8 @@ I read the modification time of each solution file by _Python_ and analyzed the 
 
 All my solved problems are listed here. For searching and reviewing easily, the difficulty, status and addressed time are recorded.
 
-For example, the first recorded problem is **twoSum**, whose difficulty is **Easy**. The time when got _ACCEPTED_ is _2020/12/04_. In the last column, the self-rating score on the problem are recorded.
+For example, the first recorded problem is **twoSum**, whose difficulty is **Easy**. The time when got _ACCEPTED_ is _2020/12/04_.
+Meanwhile, the classification and the self-rating score on the problem are recorded.
 
 |    Number    |          Title           | Difficulty |                    Status[^status]                     | Time[^time] | Classification | Mastery[^mastery] |
 | :----------: | :----------------------: | :--------: | :----------------------------------------------------: | :---------: | :------------: | :---------------: |
