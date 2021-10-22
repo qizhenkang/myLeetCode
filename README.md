@@ -128,6 +128,7 @@ For example, the first recorded problem is **groupAnagrams**, whose difficulty i
 |      85      |     maximalRectangle     |    Hard    |     [AC](./code/Solution_0085_maximalRectangle.py)     | 2021/10/21 |     Stack      |    ★★☆☆☆    |
 |      86      |        partition         |   Medium   |        [AC](./code/Solution_0086_partition.py)         | 2021/10/21 |  Linked List   |    ★★★★★    |
 |      87      |        isScramble        |    Hard    |        [WA](./code/Solution_0087_isScramble.py)        | 2021/10/21 |       DP       |    ☆☆☆☆☆    |
+|      88      |          merge           |    Easy    |          [AC](./code/Solution_0088_merge.py)           | 2021/10/22 |     Array      |    ★★★★★    |
 |      89      |         grayCode         |   Medium   |         [AC](./code/Solution_0089_grayCode.py)         | 2021/10/20 |      Math      |    ★★★☆☆    |
 |      90      |      subsetsWithDup      |   Medium   |      [AC](./code/Solution_0090_subsetsWithDup.py)      | 2021/10/22 |  Backtracking  |    ★★★★☆    |
 |      93      |    restoreIpAddresses    |   Medium   |    [AC](./code/Solution_0093_restoreIpAddresses.py)    | 2021/10/22 |  Backtracking  |    ★★★★☆    |
