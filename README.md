@@ -1,6 +1,6 @@
 # myLeetCode
 
-This _Zhenkang[^my]_'s _LeetCode_ Repository(mainly by _Python_).
+This _Zhenkang_[^my]'s _LeetCode_ Repository(mainly by _Python_).
 
 I started the journey of _LeetCode_ when I was in the second year of my Ph.D.[^why].
 
