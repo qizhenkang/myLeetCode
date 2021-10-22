@@ -18,6 +18,8 @@ Some statistics are showed here.
 
 ![Figure of Hourly Distribution](.//image//HourlyDistribution.jpg)
 
+![Figure of Cumulative Curve](.//image//DailyDistribution.jpg)
+
 ### LeetCode Contest
 
 | Number |                             Contest Title                              | Score  | Global Ranking | Time       |
