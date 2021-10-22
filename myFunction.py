@@ -204,7 +204,7 @@ if __name__ == '__main__':
     plt.ylabel('The number of problems',fontsize=fontSizeLabel)
     plt.title("The Cumulative Curve of Zhenkang's Learning Progress ", fontsize=fontSizeTitle) # 设置标题
     plt.subplots_adjust(bottom=bottomSize)
-    # plt.savefig('.//image//DailyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+    plt.savefig('.//image//DailyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
 
     
     # Name2MarkdownList
