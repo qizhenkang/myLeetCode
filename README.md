@@ -6,7 +6,7 @@ I started the journey of _LeetCode_ when I was in the second year of my Ph.D.[^w
 
 ## Statistics
 
-**Big data** are changing the **world**. In this page, some data of my studying progress are collected and showed.
+**Big data** is changing the **world**. In this page, some data of my studying progress are collected and showed.
 
 ### Distribution of Learning Time in One Day
 
