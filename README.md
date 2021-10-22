@@ -18,8 +18,6 @@ Some statistics are showed here.
 
 ![Figure of Hourly Distribution](.//image//HourlyDistribution.jpg)
 
-![Figure of Cumulative Curve](.//image//DailyDistribution.jpg)
-
 ### LeetCode Contest
 
 | Number |                             Contest Title                              | Score  | Global Ranking | Time       |
@@ -38,6 +36,8 @@ Therefore, a note about [Search](./note/Not_001_Search.md) is written to summari
 ### Solved Problems List
 
 Some interesting Problems are listed. For searching and reviewing easily, the difficulty, status and addressed time are recorded.
+
+![Figure of Cumulative Curve](.//image//DailyDistribution.jpg)
 
 For example, the first recorded problem is **groupAnagrams**, whose difficulty is **Medium**. The time when got _accepted_ is _2021/10/04_. In the last column, my own understanding score on the problem are showed.
 
