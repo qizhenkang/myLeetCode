@@ -192,6 +192,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     470      |          rand10          |    ---     |          [AC](./code/Solution_0470_rand10.py)          | 2021/09/05  |      ---       |        ---        |
 |     476      |      findComplement      |    Easy    |      [AC](./code/Solution_0476_findComplement.py)      | 2021/10/18  |      Bit       |       ★★★☆☆       |
 |     482      |   licenseKeyFormatting   |    Easy    |   [AC](./code/Solution_0482_licenseKeyFormatting.py)   | 2021/10/04  |     String     |       ★★☆☆☆       |
+|     492      |    constructRectangle    |    Easy    |    [AC](./code/Solution_0492_constructRectangle.py)    | 2021/10/23  |     Array      |       ★★★★★       |
 |     502      |   findMaximizedCapital   |    ---     |   [AC](./code/Solution_0502_findMaximizedCapital.py)   | 2021/09/08  |      ---       |        ---        |
 |     517      |       findMinMoves       |    ---     |       [AC](./code/Solution_0517_findMinMoves.py)       | 2021/09/29  |      ---       |        ---        |
 |     524      |     findLongestWord      |    ---     |     [AC](./code/Solution_0524_findLongestWord.py)      | 2021/08/21  |      ---       |        ---        |
