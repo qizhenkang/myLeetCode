@@ -18,7 +18,7 @@ class Solution:
         1、LW反了错了一次，改正后一次通过，用时10min
         
         答案：
-        1、答案也只有暴力法，这题没什么他意思
+        1、答案也只有暴力法，这题没什么意思
         """
         right = int(math.sqrt(area))
         result = [area,1]
