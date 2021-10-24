@@ -138,6 +138,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |      92      |      reverseBetween      |   Medium   |      [AC](./code/Solution_0092_reverseBetween.py)      | 2021/10/22  |  Linked List   |       ★★★★☆       |
 |      93      |    restoreIpAddresses    |   Medium   |    [AC](./code/Solution_0093_restoreIpAddresses.py)    | 2021/10/22  |  Backtracking  |       ★★★★☆       |
 |      94      |     inorderTraversal     |    Easy    |     [AC](./code/Solution_0094_inorderTraversal.py)     | 2021/09/03  |      ---       |        ---        |
+|      95      |      generateTrees       |    ---     |      [WA](./code/Solution_0095_generateTrees.py)       | 2021/10/23  |  Backtracking  |       ☆☆☆☆☆       |
 |      98      |        isValidBST        |   Medium   |        [AC](./code/Solution_0098_isValidBST.py)        | 2021/09/03  |      ---       |        ---        |
 |      99      |       recoverTree        |   Medium   |       [AC](./code/Solution_0099_recoverTree.py)        | 2021/09/04  |      ---       |        ---        |
 |     100      |        isSameTree        |    Easy    |        [AC](./code/Solution_0100_isSameTree.py)        | 2021/09/04  |      ---       |        ---        |
