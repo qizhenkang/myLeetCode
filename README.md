@@ -18,10 +18,11 @@ I read the modification time of each solution file by _Python_ and analyzed my s
 
 I am trying to participate in the _LeetCode_ weekly contest.
 
-| Number |                             Contest Title                              | Score  | Global Ranking | Time       |
-| :----: | :--------------------------------------------------------------------: | :----: | :------------: | ---------- |
-|   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌ |  1317 / 4260   | 2021/10/10 |
-|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) | ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
+| Number |                             Contest Title                              |  Score  | Global Ranking | Time       |
+| :----: | :--------------------------------------------------------------------: | :-----: | :------------: | ---------- |
+|   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌  |  1317 / 4260   | 2021/10/10 |
+|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) |  ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
+|   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌ |  2032 / 4658   | 2021/10/24 |
 
 ## My Coding Record
 
@@ -219,6 +220,8 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     2043     |           Bank           |   Medium   |           [AC](./code/Solution_2043_Bank.py)           | 2021/10/17  |     Design     |       ★★★☆☆       |
 |     2044     |    countMaxOrSubsets     |   Medium   |    [AC](./code/Solution_2044_countMaxOrSubsets.py)     | 2021/10/17  |  Backtracking  |       ★★★☆☆       |
 |     2045     |      secondMinimum       |    Hard    |      [AC](./code/Solution_2045_secondMinimum.py)       | 2021/10/19  |      BFS       |       ☆☆☆☆☆       |
+|     5001     |     countValidWords      |    Easy    |     [AC](./code/Solution_5001_countValidWords.py)      | 2021/10/24  |     String     |       ★★★★☆       |
+|     5002     |   nextBeautifulNumber    |   Medium   |   [WA](./code/Solution_5002_nextBeautifulNumber.py)    | 2021/10/24  |     Array      |       ☆☆☆☆☆       |
 | X069[^offer] | peakIndexInMountainArray |    Easy    | [AC](./code/Solution_X069_peakIndexInMountainArray.py) | 2021/10/14  |     Search     |       ★★★★☆       |
 
 [^why]: When I entered my Ph.D. career, I found that what I love is not researching, but programming.
