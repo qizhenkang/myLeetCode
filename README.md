@@ -199,6 +199,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     583      |       minDistance        |    ---     |       [AC](./code/Solution_0583_minDistance.py)        | 2021/09/25  |      ---       |        ---        |
 |     600      |       findIntegers       |    ---     |       [AC](./code/Solution_0600_findIntegers.py)       | 2021/09/11  |      ---       |        ---        |
 |     633      |      judgeSquareSum      |    ---     |      [AC](./code/Solution_0633_judgeSquareSum.py)      | 2021/08/21  |      ---       |        ---        |
+|     638      |      shoppingOffers      |   Medium   |      [AC](./code/Solution_063_shoppingOffers.py)       | 2021/10/24  |  Backtracking  |       ★★★☆☆       |
 |     639      |       numDecodings       |    ---     |       [AC](./code/Solution_0639_numDecodings.py)       | 2021/09/27  |      ---       |        ---        |
 |     678      |     checkValidString     |    ---     |     [AC](./code/Solution_0678_checkValidString.py)     | 2021/09/13  |      ---       |        ---        |
 |     680      |     validPalindrome      |    ---     |     [AC](./code/Solution_0680_validPalindrome.py)      | 2021/08/21  |      ---       |        ---        |
