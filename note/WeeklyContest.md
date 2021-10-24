@@ -19,6 +19,6 @@
 
 30min 做出了 3 题，卡在了第四题。要用到 BFS，没有做出来，赛后补了一下 BFS 的知识。
 
-### Weekly Contest 263
+### Weekly Contest 262
 
 第一次参赛，做出来了两个题。
