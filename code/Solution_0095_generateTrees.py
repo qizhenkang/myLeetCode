@@ -18,37 +18,37 @@ class Solution:
         读题：
         1、生成二叉搜索树，返回所有可能，应该是一个回溯
         2、没时间，等有时间再做，应该快了
+        
+        没做出来，卡在了二叉树的深复制上
+        
+        答案：
+        1、用递归，好像没发现有深复制的问题？
+        2、答案的代码确实简洁，思路也清晰，就是不断的把问题变小，每步只考虑当前的做法
         """
-        
-        def __dfs(n,result,current,headpre,used,total):
-            print(n,total,current.val)
-            if total == n:
-                result.append(headpre.left)
-                return
-            for i in range(1,n):
-                print(i)
-                if used:
-                    continue
-                used[i] = True
-                if i < current.val:
-                    current.left = TreeNode(i)
-                    __dfs(n,result,current.left,used,total+1)
-                    current.left = None
-                else:
-                    current.right = TreeNode(i)
-                    __dfs(n,result,current.right,used,total+1)
-                    current.right = None
-                used[i] = False
+
+        def generateTrees(start, end):
+            if start > end:
+                return [None,]
             
-            return 
+            allTrees = []
+            for i in range(start, end + 1):  # 枚举可行根节点
+                # 获得所有可行的左子树集合
+                leftTrees = generateTrees(start, i - 1)
+                
+                # 获得所有可行的右子树集合
+                rightTrees = generateTrees(i + 1, end)
+                # print(leftTrees)
+                # 从左子树集合中选出一棵左子树，从右子树集合中选出一棵右子树，拼接到根节点上
+                for l in leftTrees:
+                    for r in rightTrees:
+                        currTree = TreeNode(i)
+                        currTree.left = l
+                        currTree.right = r
+                        allTrees.append(currTree)
+            
+            return allTrees
         
-        
-        result = []
-        current = TreeNode()
-        headpre = TreeNode(0, current)
-        used = [False] * n
-        __dfs(n,result,headpre.left,headpre,used,0)
-        return result
+        return generateTrees(1, n) if n else []
 
 if __name__ == '__main__':
     solu = Solution()
@@ -65,9 +65,24 @@ if __name__ == '__main__':
     ss = ['12',"23",'20310','06','011106','111111111111111111111111111111111111111111111']
     ss = ['1234','2101','123123']
     area = [1,2,80,100000,10000000]
-    for s in range(8):
+    for s in range(3,4):
         result = solu.generateTrees(s)
-    
-        output_Str = ' result = ' + str(result)
-        print(output_Str)
+        cnt = 1
+        for re in result:
+            temp = re
+            print('left',end=' ')
+            while temp:
+                print(temp.val,end=' ')
+                temp = temp.left
+            temp = re
+            print('right',end=' ')
+            while temp:
+                print(temp.val,end=' ')
+                temp = temp.right
+            print('--')
+            print(cnt,' ---------')
+            cnt +=1
+        # output_Str = ' result = ' + str(result)
+        # print(output_Str)
+        
     
