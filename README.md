@@ -6,7 +6,7 @@ I started the journey of _LeetCode_ when I was in the second year of my Ph.D.[^w
 
 ## Statistics
 
-**Big data** is changing the **world**. In this page, some data of my studying progress are collected and showed.
+**Big data** is changing the world. In this page, some data of my studying progress are collected and showed.
 
 ### Distribution of Learning Time in One Day
 
@@ -224,7 +224,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     2044     |    countMaxOrSubsets     |   Medium   |    [AC](./code/Solution_2044_countMaxOrSubsets.py)     | 2021/10/17  |  Backtracking  |       ★★★☆☆       |
 |     2045     |      secondMinimum       |    Hard    |      [AC](./code/Solution_2045_secondMinimum.py)       | 2021/10/19  |      BFS       |       ☆☆☆☆☆       |
 |     2047     |     countValidWords      |    Easy    |     [AC](./code/Solution_2047_countValidWords.py)      | 2021/10/24  |     String     |       ★★★★☆       |
-|     2048    |   nextBeautifulNumber    |   Medium   |   [WA](./code/Solution_2048_nextBeautifulNumber.py)    | 2021/10/24  |     Array      |       ☆☆☆☆☆       |
+|     2048     |   nextBeautifulNumber    |   Medium   |   [WA](./code/Solution_2048_nextBeautifulNumber.py)    | 2021/10/24  |     Array      |       ☆☆☆☆☆       |
 | X069[^offer] | peakIndexInMountainArray |    Easy    | [AC](./code/Solution_X069_peakIndexInMountainArray.py) | 2021/10/14  |     Search     |       ★★★★☆       |
 
 [^why]: When I entered my Ph.D. career, I found that what I love is not researching, but programming.
