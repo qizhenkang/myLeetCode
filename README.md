@@ -47,7 +47,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 
 |    Number    |          Title           | Difficulty |                    Status[^status]                     | Time[^time] | Classification | Mastery[^mastery] |
 | :----------: | :----------------------: | :--------: | :----------------------------------------------------: | :---------: | :------------: | :---------------: |
-|      1       |          twoSum          |    Easy    |         [AC](./code/Solution_0001_twoSum.cpp)          | 2020/12/04  |     Array      |       ★☆☆☆☆       |
+|      1       |          twoSum          |    Easy    |          [AC](./code/Solution_0001_twoSum.py)          | 2020/12/04  |     Array      |       ★★★☆☆       |
 |      2       |      addTwoNumbers       |   Medium   |      [AC](./code/Solution_0002_addTwoNumbers.cpp)      | 2020/12/04  |  Linked List   |       ★☆☆☆☆       |
 |      3       | lengthOfLongestSubstring |   Medium   | [AC](./code/Solution_0003_lengthOfLongestSubstring.py) | 2020/12/04  |      Hash      |       ★☆☆☆☆       |
 |      4       |  findMedianSortedArrays  |    Hard    |  [AC](./code/Solution_0004_findMedianSortedArrays.py)  | 2020/12/04  |      ---       |   ---[^unknown]   |
@@ -64,7 +64,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |      15      |         threeSum         |   Medium   |         [AC](./code/Solution_0015_threeSum.py)         | 2020/12/07  |      ---       |        ---        |
 |      16      |     threeSumClosest      |   Medium   |     [AC](./code/Solution_0016_threeSumClosest.py)      | 2020/12/08  |      ---       |        ---        |
 |      17      |    letterCombinations    |   Medium   |    [AC](./code/Solution_0017_letterCombinations.py)    | 2021/09/30  |      ---       |        ---        |
-|      18      |         fourSum          |   Medium   |         [WA](./code/Solution_0018_fourSum.py)          | 2021/08/06  |      ---       |        ---        |
+|      18      |         fourSum          |   Medium   |         [AC](./code/Solution_0018_fourSum.py)          | 2021/10/25  |     Array      |       ★★☆☆☆       |
 |      19      |     removeNthFromEnd     |   Medium   |     [AC](./code/Solution_0019_removeNthFromEnd.py)     | 2021/08/14  |      ---       |        ---        |
 |      20      |         isValid          |    Easy    |         [AC](./code/Solution_0020_isValid.py)          | 2021/08/10  |      ---       |        ---        |
 |      21      |      mergeTwoLists       |    Easy    |      [AC](./code/Solution_0021_mergeTwoLists.py)       | 2021/09/27  |      ---       |        ---        |
