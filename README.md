@@ -175,6 +175,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     223      |       computeArea        |    ---     |       [AC](./code/Solution_0223_computeArea.py)        | 2021/09/30  |      ---       |        ---        |
 |     229      |     majorityElement      |   Medium   |     [AC](./code/Solution_0229_majorityElement.py)      | 2021/10/22  |      Hash      |       ★★★☆☆       |
 |     230      |       kthSmallest        |   Medium   |       [AC](./code/Solution_0230_kthSmallest.py)        | 2021/10/17  |      Tree      |       ★★★☆☆       |
+|     240      |       searchMatrix       |   Medium   |       [AC](./code/Solution_0240_searchMatrix.py)       | 2021/10/25  |     Search     |       ★★★☆☆       |
 |     273      |      numberToWords       |    Hard    |      [AC](./code/Solution_0273_numberToWords.py)       | 2021/10/11  |     String     |       ★★★★★       |
 |     279      |        numSquares        |    ---     |        [AC](./code/Solution_0279_numSquares.py)        | 2021/09/10  |      ---       |        ---        |
 |     282      |       addOperators       |    Hard    |       [AC](./code/Solution_0282_addOperators.py)       | 2021/10/16  |  Backtracking  |       ★☆☆☆☆       |
