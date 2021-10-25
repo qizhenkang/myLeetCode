@@ -32,7 +32,8 @@ class Solution:
             # print(stack)
             N = len(stack)
             for i in range(N):
-                posi = stack.pop()
+                posi = stack.pop() # DFS 栈
+                # posi = stack.pop(0) # BFS 队列
                 if tuple(posi) in memo or posi[0] > posi[1] or posi[2] > posi[3]:
                     continue
                 aimposi = [(posi[0]+posi[1])//2,(posi[2]+posi[3])//2]
