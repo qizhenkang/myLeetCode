@@ -48,7 +48,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |    Number    |          Title           | Difficulty |                    Status[^status]                     | Time[^time] | Classification | Mastery[^mastery] |
 | :----------: | :----------------------: | :--------: | :----------------------------------------------------: | :---------: | :------------: | :---------------: |
 |      1       |          twoSum          |    Easy    |          [AC](./code/Solution_0001_twoSum.py)          | 2020/12/04  |     Array      |       ★★★☆☆       |
-|      2       |      addTwoNumbers       |   Medium   |      [AC](./code/Solution_0002_addTwoNumbers.cpp)      | 2020/12/04  |  Linked List   |       ★☆☆☆☆       |
+|      2       |      addTwoNumbers       |   Medium   |      [AC](./code/Solution_0002_addTwoNumbers.py)       | 2020/12/04  |  Linked List   |       ★★★★☆       |
 |      3       | lengthOfLongestSubstring |   Medium   | [AC](./code/Solution_0003_lengthOfLongestSubstring.py) | 2020/12/04  |      Hash      |       ★☆☆☆☆       |
 |      4       |  findMedianSortedArrays  |    Hard    |  [AC](./code/Solution_0004_findMedianSortedArrays.py)  | 2020/12/04  |      ---       |   ---[^unknown]   |
 |      5       |    longestPalindrome     |   Medium   |    [AC](./code/Solution_0005_longestPalindrome.py)     | 2020/12/05  |      ---       |        ---        |
