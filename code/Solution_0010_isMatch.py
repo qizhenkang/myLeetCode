@@ -25,47 +25,70 @@ class Solution:
         2、也就是说，回溯的方法没有用到 DP的大内存，但剪枝不够
         """
         
-        def dfs(s,p,spointer,ppointer,sLength):
-            print(spointer,ppointer,s[spointer:],p[ppointer:])
-            if spointer == sLength and ppointer == len(p):
-                return True
-            elif spointer == sLength:
-                while ppointer < len(p) - 1 and p[ppointer +1] == '*':
-                    ppointer += 2
-                if ppointer == len(p):
-                    return True
-                else:
-                    return False
-            elif ppointer == len(p):
-                return False
-            
-            result = False
-            if ppointer < len(p) - 1 and p[ppointer + 1] == '*':
-                if p[ppointer] == '.':
-                    # 最麻烦的 '.*' 没有好办法
-                    # 一个一个试 这里可以剪枝
-                    # x = sLength - spointer
-                    # while not result and x >=0:
-                    #     result |= dfs(s,p,spointer+x,ppointer+2,sLength)
-                    #     x -= 1
-                    x = 0
-                    while not result and x <= sLength - spointer:
-                        result |= dfs(s,p,spointer+x,ppointer+2,sLength)
-                        x -= 0
-                else:
-                    # 'A*'处理
-                    # 这里可以剪枝
-                    cutFlag = 0
-                    x = 0
-                    while not result and x < sLength - spointer and s[spointer+x] == p[ppointer]:
-                        result |= dfs(s,p,spointer+x,ppointer+2,sLength)
-                        x +=1
-                    result |= dfs(s,p,spointer+x,ppointer+2,sLength)
-            else:  # 单独一个'.'
-                if p[ppointer] == '.' or p[ppointer] == s[spointer]:
-                    result |= dfs(s,p,spointer+1,ppointer+1,sLength)
+        m, n = len(s), len(p)
 
-            return result
+        def matches(i: int, j: int) -> bool:
+            if i == 0:
+                return False
+            if p[j - 1] == '.':
+                return True
+            return s[i - 1] == p[j - 1]
+
+        f = [[False] * (n + 1) for _ in range(m + 1)]
+        f[0][0] = True
+        for i in range(m + 1):
+            for j in range(1, n + 1):
+                if p[j - 1] == '*':
+                    f[i][j] |= f[i][j - 2]
+                    if matches(i, j - 1):
+                        f[i][j] |= f[i - 1][j]
+                else:
+                    if matches(i, j):
+                        f[i][j] |= f[i - 1][j - 1]
+        return f
+
+        
+        # def dfs(s,p,spointer,ppointer,sLength):
+        #     print(spointer,ppointer,s[spointer:],p[ppointer:])
+        #     if spointer == sLength and ppointer == len(p):
+        #         return True
+        #     elif spointer == sLength:
+        #         while ppointer < len(p) - 1 and p[ppointer +1] == '*':
+        #             ppointer += 2
+        #         if ppointer == len(p):
+        #             return True
+        #         else:
+        #             return False
+        #     elif ppointer == len(p):
+        #         return False
+            
+        #     result = False
+        #     if ppointer < len(p) - 1 and p[ppointer + 1] == '*':
+        #         if p[ppointer] == '.':
+        #             # 最麻烦的 '.*' 没有好办法
+        #             # 一个一个试 这里可以剪枝
+        #             # x = sLength - spointer
+        #             # while not result and x >=0:
+        #             #     result |= dfs(s,p,spointer+x,ppointer+2,sLength)
+        #             #     x -= 1
+        #             x = 0
+        #             while not result and x <= sLength - spointer:
+        #                 result |= dfs(s,p,spointer+x,ppointer+2,sLength)
+        #                 x -= 0
+        #         else:
+        #             # 'A*'处理
+        #             # 这里可以剪枝
+        #             cutFlag = 0
+        #             x = 0
+        #             while not result and x < sLength - spointer and s[spointer+x] == p[ppointer]:
+        #                 result |= dfs(s,p,spointer+x,ppointer+2,sLength)
+        #                 x +=1
+        #             result |= dfs(s,p,spointer+x,ppointer+2,sLength)
+        #     else:  # 单独一个'.'
+        #         if p[ppointer] == '.' or p[ppointer] == s[spointer]:
+        #             result |= dfs(s,p,spointer+1,ppointer+1,sLength)
+
+        #     return result
         
 
         return dfs(s,p,0,0,len(s))
