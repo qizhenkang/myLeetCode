@@ -56,7 +56,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |      7       |         reverse          |    Easy    |         [AC](./code/Solution_0007_reverse.py)          | 2020/12/05  |      ---       |        ---        |
 |      8       |          myAtoi          |   Medium   |          [AC](./code/Solution_0008_myAtoi.py)          | 2020/12/05  |      ---       |        ---        |
 |      9       |       isPalindrome       |    Easy    |       [AC](./code/Solution_0009_isPalindrome.py)       | 2020/12/06  |      ---       |        ---        |
-|      10      |         isMatch          |    Hard    |         [WA](./code/Solution_0010_isMatch.py)          | 2020/12/07  |      ---       |        ---        |
+|      10      |         isMatch          |    Hard    |         [AC](./code/Solution_0010_isMatch.py)          | 2021/10/26  |       DP       |       ★★☆☆☆       |
 |      11      |         maxArea          |   Medium   |         [AC](./code/Solution_0011_maxArea.py)          | 2020/12/07  |      ---       |        ---        |
 |      12      |        intToRoman        |   Medium   |        [AC](./code/Solution_0012_intToRoman.py)        | 2020/12/07  |      ---       |        ---        |
 |      13      |        romanToInt        |    Easy    |        [AC](./code/Solution_0013_romanToInt.py)        | 2020/12/07  |      ---       |        ---        |
