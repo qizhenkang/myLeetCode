@@ -30,7 +30,7 @@ I am trying to participate in the _LeetCode_ weekly contest.
 
 In weekly contest 263, the fourth problem is about **Breadth-first search**(BFS), which I was not familiar with.
 
-Therefore, a note about [Search](./note/Not_001_Search.md) is written to summarize the key points of _DFS_/_Backtracking_/_BFS_.
+Therefore, a note about [Search](./note/Note_001_Search.md) is written to summarize the key points of _DFS_/_Backtracking_/_BFS_.
 
 ### Cumulative Curve
 
