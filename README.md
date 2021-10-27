@@ -90,6 +90,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |      41      |   firstMissingPositive   |    Hard    |   [AC](./code/Solution_0041_firstMissingPositive.py)   | 2021/10/01  |      ---       |        ---        |
 |      42      |           trap           |    Hard    |           [AC](./code/Solution_0042_trap.py)           | 2021/09/26  |      ---       |        ---        |
 |      43      |         multiply         |   Medium   |         [AC](./code/Solution_0043_multiply.py)         | 2021/10/01  |      ---       |        ---        |
+|      44      |         isMatch          |    Hard    |         [AC](./code/Solution_0044_isMatch.py)          | 2021/10/27  |       DP       |       ★★★☆☆       |
 |      45      |           jump           |   Medium   |           [AC](./code/Solution_0045_jump.py)           | 2021/10/02  |      ---       |        ---        |
 |      46      |         permute          |   Medium   |         [AC](./code/Solution_0046_permute.py)          | 2021/09/05  |      ---       |        ---        |
 |      47      |      permuteUnique       |   Medium   |      [AC](./code/Solution_0047_permuteUnique.py)       | 2021/09/30  |      ---       |        ---        |

@@ -23,31 +23,61 @@ class Solution:
         测试：
         1、回溯写出来了，一次通过，但是性能比较特殊，内存占用很小，时间慢
         2、也就是说，回溯的方法没有用到 DP的大内存，但剪枝不够
+        
+        答案思路：
+        1、这题看答案也看不懂，就仔细整理一下吧
+        2、本质上是动态规划，难点在于'*'号的处理
+        3、自己写一下动态规划，本质上就是 s 的前i 个和 p的前j 个匹配
+        4、是一种记忆化搜索，充分利用前述的搜索结果
+        
+        答案重写测试：
+        1、重写了很多次，通过了，还是不是非常理解
         """
-        
-        m, n = len(s), len(p)
-
-        def matches(i: int, j: int) -> bool:
-            if i == 0:
-                return False
-            if p[j - 1] == '.':
-                return True
-            return s[i - 1] == p[j - 1]
-
-        f = [[False] * (n + 1) for _ in range(m + 1)]
-        f[0][0] = True
-        for i in range(m + 1):
-            for j in range(1, n + 1):
-                if p[j - 1] == '*':
-                    f[i][j] |= f[i][j - 2]
-                    if matches(i, j - 1):
-                        f[i][j] |= f[i - 1][j]
+        m = len(s)
+        n = len(p)
+        dp = [[False]*(n+1) for _ in range(m+1)]
+        dp[0][0] = True
+        for i in range(m+1):
+            for j in range(n+1):
+                # 如果 j是0 必不行，dp[0][0] = True 已经提前考虑了
+                if j == 0:
+                    continue
+                if p[j-1] == '*':
+                    # 如果是 '*' 就复杂了，先看直接去掉是不是匹配
+                    dp[i][j] |= dp[i][j-2] if j > 1 else i == 0
+                    # 再看是否匹配，若匹配就和前述一致
+                    if p[j-2] == '.'  or i != 0 and s[i-1] == p[j-2]:
+                        dp[i][j] |= dp[i-1][j] if i > 0 else False
                 else:
-                    if matches(i, j):
-                        f[i][j] |= f[i - 1][j - 1]
-        return f
+                    # 如果不是 '*' 就看是否匹配 匹配就与之前有关
+                    if p[j-1] == '.'  or i > 0 and s[i-1] == p[j-1]:
+                        dp[i][j] |= dp[i-1][j-1] if i > 0 else False
 
         
+        return dp
+        # m, n = len(s), len(p)
+        
+        # def matches(i: int, j: int) -> bool:
+        #     if i == 0:
+        #         return False
+        #     if p[j - 1] == '.':
+        #         return True
+        #     return s[i - 1] == p[j - 1]
+    
+        # f = [[False] * (n + 1) for _ in range(m + 1)]
+        # f[0][0] = True
+        # for i in range(m + 1):
+        #     for j in range(1, n + 1):
+        #         if p[j - 1] == '*':
+        #             f[i][j] |= f[i][j - 2]
+        #             if matches(i, j - 1):
+        #                 f[i][j] |= f[i - 1][j]
+        #         else:
+        #             if matches(i, j):
+        #                 f[i][j] |= f[i - 1][j - 1]
+        # return f
+
+
         # def dfs(s,p,spointer,ppointer,sLength):
         #     print(spointer,ppointer,s[spointer:],p[ppointer:])
         #     if spointer == sLength and ppointer == len(p):
@@ -89,30 +119,9 @@ class Solution:
         #             result |= dfs(s,p,spointer+1,ppointer+1,sLength)
 
         #     return result
-        
 
-        return dfs(s,p,0,0,len(s))
-        # spointer = 0
-        # ppointer = 0
-        # N = len(s)
-        # while ppointer < N:
-        #     # 处理'*'
-        #     if ppointer < N - 1 and p[ppointer + 1] == '*':
-        #         if p[ppointer] == '.':
-        #             # 最麻烦的 '.*' 没有好办法
-        #         else:
-        #             # 'A*'处理
-        #             if ppointer + 1 < N - 1
-        #             while s[spointer] == p[ppointer] or s[spointer] == p[ppointer+2]:
-        #                 spointer += 1
-        #     else:  # 单独一个'.'
-        #         if p[ppointer] == '.' or p[ppointer] == s[spointer]:
-        #             spointer += 1
-        #             ppointer += 1
-        #         else:
-        #             return False
+        # return dfs(s,p,0,0,len(s))
 
-        # return result
 
 
 if __name__ == '__main__':
@@ -120,20 +129,25 @@ if __name__ == '__main__':
     # input_numRows = 2
     # input_Str_s = str('aab')
     # input_Str_p = str('.*a*b')
+    # input_Str_s = str('aab')
+    # input_Str_p = str('b.*')
     
     input_Str_s = "aaacd"
     input_Str_p = "a*aaaacd"
-    # input_Str_s = str('mississippi')
-    # input_Str_p = str('mis*is*p*.')
+    input_Str_s = str('mississippi')
+    input_Str_p = str('mis*is*p*.')
     
-    # input_Str_s = str('abcdef')
-    # input_Str_p = str('ab.*f')
+    input_Str_s = str('abcdef')
+    input_Str_p = str('.*f')
     
     # input_Str_s = str('a')
     # input_Str_p = str('a*b*c*')
     
-    # input_Str_s = str('aa')
-    # input_Str_p = str('a')
+    input_Str_s = str('aa')
+    input_Str_p = str('a')
+    result = solu.isMatch(input_Str_s, input_Str_p)
+    for i in result:
+        print(i)
     
-    output_Str = 'result = ' + str(solu.isMatch(input_Str_s, input_Str_p))
-    print(output_Str)
+    # output_Str = 'result = ' + str(result)
+    # print(output_Str)
