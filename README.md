@@ -32,6 +32,8 @@ In weekly contest 263, the fourth problem is about **Breadth-first search**(BFS)
 
 Therefore, a note about [Search](./note/Note_001_Search.md) is written to summarize the key points of _DFS_/_Backtracking_/_BFS_.
 
+For more information, you could visit [myLeetBook](.//note/myLeetBook.md), which contains more details about my thinking.
+
 ### Cumulative Curve
 
 I read the modification time of each solution file by _Python_ and analyzed the Cumulative Curve.
