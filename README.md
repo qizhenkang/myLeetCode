@@ -118,6 +118,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |      69      |          mySqrt          |    Easy    |          [AC](./code/Solution_0069_mySqrt.py)          | 2021/09/27  |      ---       |        ---        |
 |      70      |       climbStairs        |    Easy    |       [AC](./code/Solution_0070_climbStairs.py)        | 2021/09/10  |      ---       |        ---        |
 |      71      |       simplifyPath       |   Medium   |       [AC](./code/Solution_0071_simplifyPath.py)       | 2021/10/15  |     String     |       ★★★★☆       |
+|      72      |       minDistance        |    Hard    |       [AC](./code/Solution_0072_minDistance.py)        | 2021/10/27  |       DP       |       ★★★★☆       |
 |      73      |        setZeroes         |   Medium   |        [AC](./code/Solution_0073_setZeroes.py)         | 2021/10/13  |     Array      |       ★★★★☆       |
 |      74      |       searchMatrix       |   Medium   |       [AC](./code/Solution_0074_searchMatrix.py)       | 2021/10/15  |     Search     |       ★★★★☆       |
 |      75      |        sortColors        |   Medium   |        [AC](./code/Solution_0075_sortColors.py)        | 2021/09/03  |      ---       |        ---        |
