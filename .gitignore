@@ -4,7 +4,7 @@ __pycache__/
 # vscode
 .vscode
 .json
-
+.csv
 *$py.class
 
 # C extensions
