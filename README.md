@@ -216,6 +216,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     680      |     validPalindrome      |    ---     |     [AC](./code/Solution_0680_validPalindrome.py)      | 2021/08/21  |      ---       |        ---        |
 |     704      |          search          |    ---     |          [AC](./code/Solution_0704_search.py)          | 2021/09/06  |      ---       |        ---        |
 |     852      | peakIndexInMountainArray |    Easy    | [AC](./code/Solution_0852_peakIndexInMountainArray.py) | 2021/10/14  |     Search     |       ★★★★☆       |
+|     869      |    reorderedPowerOf2     |   Medium   |    [AC](./code/Solution_0869_reorderedPowerOf2.py)     | 2021/10/28  |      Hash      |       ★★★★☆       |
 |     1009     |    bitwiseComplement     |    Easy    |    [AC](./code/Solution_1009_bitwiseComplement.py)     | 2021/10/18  |      Bit       |       ★★★☆☆       |
 |     1143     | longestCommonSubsequence |    ---     | [AC](./code/Solution_1143_longestCommonSubsequence.py) | 2021/09/25  |      ---       |        ---        |
 |     1221     |   balancedStringSplit    |    ---     |   [AC](./code/Solution_1221_balancedStringSplit.py)    | 2021/09/07  |      ---       |        ---        |
