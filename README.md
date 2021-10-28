@@ -135,7 +135,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |      84      |   largestRectangleArea   |    Hard    |   [AC](./code/Solution_0084_largestRectangleArea.py)   | 2021/10/21  |     Stack      |       ★★☆☆☆       |
 |      85      |     maximalRectangle     |    Hard    |     [AC](./code/Solution_0085_maximalRectangle.py)     | 2021/10/21  |     Stack      |       ★★☆☆☆       |
 |      86      |        partition         |   Medium   |        [AC](./code/Solution_0086_partition.py)         | 2021/10/21  |  Linked List   |       ★★★★★       |
-|      87      |        isScramble        |    Hard    |        [WA](./code/Solution_0087_isScramble.py)        | 2021/10/21  |       DP       |       ☆☆☆☆☆       |
+|      87      |        isScramble        |    Hard    |        [AC](./code/Solution_0087_isScramble.py)        | 2021/10/21  |       DP       |       ★★★☆☆       |
 |      88      |          merge           |    Easy    |          [AC](./code/Solution_0088_merge.py)           | 2021/10/22  |     Array      |       ★★★★★       |
 |      89      |         grayCode         |   Medium   |         [AC](./code/Solution_0089_grayCode.py)         | 2021/10/20  |      Math      |       ★★★☆☆       |
 |      90      |      subsetsWithDup      |   Medium   |      [AC](./code/Solution_0090_subsetsWithDup.py)      | 2021/10/22  |  Backtracking  |       ★★★★☆       |
