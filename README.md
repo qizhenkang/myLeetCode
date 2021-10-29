@@ -186,6 +186,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     284      |     PeekingIterator      |   Medium   |     [AC](./code/Solution_0284_PeekingIterator.py)      | 2021/10/05  |     Design     |       ★☆☆☆☆       |
 |     301      | removeInvalidParentheses |    Hard    | [AC](./code/Solution_0301_removeInvalidParentheses.py) | 2021/10/27  |  Backtracking  |       ★★★☆☆       |
 |     326      |      isPowerOfThree      |    ---     |      [AC](./code/Solution_0326_isPowerOfThree.py)      | 2021/09/23  |      ---       |        ---        |
+|     335      |      isSelfCrossing      |    Hard    |      [AC](./code/Solution_0335_isSelfCrossing.py)      | 2021/10/29  |      Math      |       ★☆☆☆☆       |
 |     352      |      SummaryRanges       |    Hard    |      [AC](./code/Solution_0352_SummaryRanges.py)       | 2021/10/09  |     Design     |       ★★☆☆☆       |
 |     371      |          getSum          |    ---     |          [AC](./code/Solution_0371_getSum.py)          | 2021/09/26  |      ---       |        ---        |
 |     405      |          toHex           |    ---     |          [AC](./code/Solution_0405_toHex.py)           | 2021/10/02  |      ---       |        ---        |
