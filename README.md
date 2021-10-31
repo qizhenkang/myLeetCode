@@ -23,6 +23,7 @@ I am trying to participate in the _LeetCode_ weekly contest.
 |   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌  |  1317 / 4260   | 2021/10/10 |
 |   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) |  ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
 |   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌ |  2032 / 4658   | 2021/10/24 |
+|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) |  ✔✔✔❌  |   583 / 4181   | 2021/10/31 |
 
 ## My Coding Record
 
