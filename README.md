@@ -206,6 +206,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     482      |   licenseKeyFormatting   |    Easy    |   [AC](./code/Solution_0482_licenseKeyFormatting.py)   | 2021/10/04  |     String     |       ★★☆☆☆       |
 |     492      |    constructRectangle    |    Easy    |    [AC](./code/Solution_0492_constructRectangle.py)    | 2021/10/23  |     Array      |       ★★★★★       |
 |     496      |    nextGreaterElement    |    Easy    |    [AC](./code/Solution_0496_nextGreaterElement.py)    | 2021/10/26  |     Stack      |       ★★★★☆       |
+|     500      |        findWords         |    Easy    |        [AC](./code/Solution_0500_findWords.py)         | 2021/10/31  |      Hash      |       ★★★★☆       |
 |     502      |   findMaximizedCapital   |    ---     |   [AC](./code/Solution_0502_findMaximizedCapital.py)   | 2021/09/08  |      ---       |        ---        |
 |     517      |       findMinMoves       |    ---     |       [AC](./code/Solution_0517_findMinMoves.py)       | 2021/09/29  |      ---       |        ---        |
 |     524      |     findLongestWord      |    ---     |     [AC](./code/Solution_0524_findLongestWord.py)      | 2021/08/21  |      ---       |        ---        |
