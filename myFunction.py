@@ -139,6 +139,9 @@ if __name__ == '__main__':
     myDPI = 150
     figSize = (8, 3.5)
     bottomSize = 0.15
+    saveFlag = True
+    
+    
     plt.style.use('dark_background')
     githubColor = [13/255,17/255,23/255] # 匹配github色彩
     fig_hours, ax = plt.subplots(figsize=figSize,facecolor=githubColor) # ,facecolor='black'
@@ -161,7 +164,8 @@ if __name__ == '__main__':
     plt.ylabel('The percentage of problems / %',fontsize=fontSizeLabel)
     plt.title("Hourly Distribution of Zhenkang's Study Time", fontsize=fontSizeTitle) # 设置标题
     plt.subplots_adjust(bottom=bottomSize)
-    # plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+    if saveFlag:
+        plt.savefig('.//image//HourlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     
     # plt.xticks(fontsize = 30)
     
@@ -186,7 +190,8 @@ if __name__ == '__main__':
     plt.ylabel('The percentage of problems / %',fontsize=fontSizeLabel)
     plt.title("Monthly Distribution of Zhenkang's Study Time in 2021", fontsize=fontSizeTitle) # 设置标题
     plt.subplots_adjust(bottom=bottomSize)
-    # plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+    if saveFlag:
+        plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     # plt.xticks(fontsize = 30)
     
     fig_days, ax = plt.subplots(figsize = figSize,facecolor=githubColor)
@@ -204,7 +209,8 @@ if __name__ == '__main__':
     plt.ylabel('The number of problems',fontsize=fontSizeLabel)
     plt.title("The Cumulative Curve of Zhenkang's Learning Progress ", fontsize=fontSizeTitle) # 设置标题
     plt.subplots_adjust(bottom=bottomSize)
-    plt.savefig('.//image//DailyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
+    if saveFlag:
+        plt.savefig('.//image//DailyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
 
     
     # Name2MarkdownList
