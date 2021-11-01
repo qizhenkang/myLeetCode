@@ -211,6 +211,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     502      |   findMaximizedCapital   |    ---     |   [AC](./code/Solution_0502_findMaximizedCapital.py)   | 2021/09/08  |      ---       |        ---        |
 |     517      |       findMinMoves       |    ---     |       [AC](./code/Solution_0517_findMinMoves.py)       | 2021/09/29  |      ---       |        ---        |
 |     524      |     findLongestWord      |    ---     |     [AC](./code/Solution_0524_findLongestWord.py)      | 2021/08/21  |      ---       |        ---        |
+|     575      |    distributeCandies     |    Easy    |    [AC](./code/Solution_0575_distributeCandies.pyy)    | 2021/11/01  |     Array      |       ★★★★★       |
 |     583      |       minDistance        |    ---     |       [AC](./code/Solution_0583_minDistance.py)        | 2021/09/25  |      ---       |        ---        |
 |     600      |       findIntegers       |    ---     |       [AC](./code/Solution_0600_findIntegers.py)       | 2021/09/11  |      ---       |        ---        |
 |     633      |      judgeSquareSum      |    ---     |      [AC](./code/Solution_0633_judgeSquareSum.py)      | 2021/08/21  |      ---       |        ---        |

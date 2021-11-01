@@ -136,10 +136,10 @@ if __name__ == '__main__':
     fontSize = 14
     fontSizeLabel = fontSize + 1
     fontSizeTitle = fontSize + 2
-    myDPI = 150
-    figSize = (8, 3.5)
-    bottomSize = 0.15
-    saveFlag = True
+    myDPI = 150 # dpi保存设置
+    figSize = (8, 3.5) # 图片尺寸
+    bottomSize = 0.15 # 底部宽度，防止底部文字看不到
+    saveFlag = False # 保存至文件
     
     
     plt.style.use('dark_background')
@@ -194,12 +194,19 @@ if __name__ == '__main__':
         plt.savefig('.//image//MonthlyDistribution.jpg', dpi=myDPI,facecolor=githubColor)
     # plt.xticks(fontsize = 30)
     
+    
+    ##  ---------------------------------------------------------------------
     fig_days, ax = plt.subplots(figsize = figSize,facecolor=githubColor)
     daysumlist = [0]
     for i in range(1,len(dayslist)):
         daysumlist.append(daysumlist[i-1]+dayslist[i])
     # print(daysumlist)
+    # daysxlabel = [months[0]]*365
+    timeNow = time.localtime()
+    daysxlabel = [i for i in list(range(366-timeNow.tm_mday,0,-30))[::-1]]
     ax.plot(daysumlist,linewidth=3.0)
+    plt.xticks(daysxlabel, months[timeNow.tm_mon:] + months[:timeNow.tm_mon])
+    
     ax.set_facecolor(githubColor)
     fig_months.set_facecolor(githubColor)
     
@@ -220,3 +227,5 @@ if __name__ == '__main__':
     
     # Rename
     # myfunc.rename('E:\\Python_Projects\\LeetCode\\')
+    
+    # plt.close('all')
