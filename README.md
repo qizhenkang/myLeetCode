@@ -18,12 +18,12 @@ I read the modification time of each solution file by _Python_ and analyzed my s
 
 I am trying to participate in the _LeetCode_ weekly contest.
 
-| Number |                             Contest Title                              |  Score  | Global Ranking | Time       |
-| :----: | :--------------------------------------------------------------------: | :-----: | :------------: | ---------- |
+| Number |                             Contest Title                              | Score | Global Ranking | Time       |
+| :----: | :--------------------------------------------------------------------: | :---: | :------------: | ---------- |
 |   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌  |  1317 / 4260   | 2021/10/10 |
-|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) |  ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
-|   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌ |  2032 / 4658   | 2021/10/24 |
-|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) |  ✔✔✔❌  |   583 / 4181   | 2021/10/31 |
+|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) | ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
+|   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌  |  2032 / 4658   | 2021/10/24 |
+|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) | ✔✔✔❌  |   583 / 4181   | 2021/10/31 |
 
 ## My Coding Record
 
@@ -180,6 +180,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     223      |       computeArea        |    ---     |       [AC](./code/Solution_0223_computeArea.py)        | 2021/09/30  |      ---       |        ---        |
 |     229      |     majorityElement      |   Medium   |     [AC](./code/Solution_0229_majorityElement.py)      | 2021/10/22  |      Hash      |       ★★★☆☆       |
 |     230      |       kthSmallest        |   Medium   |       [AC](./code/Solution_0230_kthSmallest.py)        | 2021/10/17  |      Tree      |       ★★★☆☆       |
+|     237      |        deleteNode        |    Easy    |        [AC](./code/Solution_0237_deleteNode.py)        | 2021/11/02  |  Linked List   |       ★★★★☆       |
 |     240      |       searchMatrix       |   Medium   |       [AC](./code/Solution_0240_searchMatrix.py)       | 2021/10/25  |     Search     |       ★★★☆☆       |
 |     260      |       singleNumber       |   Medium   |       [AC](./code/Solution_0260_singleNumber.py)       | 2021/10/30  |     Array      |       ★★★☆☆       |
 |     273      |      numberToWords       |    Hard    |      [AC](./code/Solution_0273_numberToWords.py)       | 2021/10/11  |     String     |       ★★★★★       |
