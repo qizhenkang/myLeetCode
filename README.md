@@ -193,6 +193,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     352      |      SummaryRanges       |    Hard    |      [AC](./code/Solution_0352_SummaryRanges.py)       | 2021/10/09  |     Design     |       ★★☆☆☆       |
 |     371      |          getSum          |    ---     |          [AC](./code/Solution_0371_getSum.py)          | 2021/09/26  |      ---       |        ---        |
 |     405      |          toHex           |    ---     |          [AC](./code/Solution_0405_toHex.py)           | 2021/10/02  |      ---       |        ---        |
+|     407      |      trapRainWater       |    Hard    |      [AC](./code/Solution_0407_trapRainWater.py)       | 2021/11/03  |      Heap      |       ★☆☆☆☆       |
 |     412      |         fizzBuzz         |    Easy    |         [AC](./code/Solution_0412_fizzBuzz.py)         | 2021/10/13  |     Array      |       ★★★★★       |
 |     413      | numberOfArithmeticSlices |    ---     | [AC](./code/Solution_0413_numberOfArithmeticSlices.py) | 2021/09/10  |      ---       |        ---        |
 |     414      |         thirdMax         |    Easy    |         [AC](./code/Solution_0414_thirdMax.py)         | 2021/10/06  |    Sorting     |       ★★★★★       |
