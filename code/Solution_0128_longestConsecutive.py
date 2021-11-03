@@ -20,7 +20,8 @@ class Solution:
         1、搞了一个哈希表，错了测试了两次，出错了
         
         答案：
-        1、
+        1、本质上就是搞一个集合，然后找初始点，然后向后找
+        2、还没有体会到什么叫并查集。
         """
 
         longest_streak = 0
@@ -36,7 +37,7 @@ class Solution:
                 while current_num + 1 in num_set:
                     current_num += 1
                     current_streak += 1
-                # 记录最长，跳过
+                # 记录最长
                 longest_streak = max(longest_streak, current_streak)
 
         return longest_streak
