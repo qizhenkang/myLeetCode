@@ -18,12 +18,12 @@ I read the modification time of each solution file by _Python_ and analyzed my s
 
 I am trying to participate in the _LeetCode_ weekly contest.
 
-| Number |                             Contest Title                              | Score | Global Ranking | Time       |
-| :----: | :--------------------------------------------------------------------: | :---: | :------------: | ---------- |
+| Number |                             Contest Title                              |  Score  | Global Ranking | Time       |
+| :----: | :--------------------------------------------------------------------: | :-----: | :------------: | ---------- |
 |   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌  |  1317 / 4260   | 2021/10/10 |
-|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) | ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
-|   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌  |  2032 / 4658   | 2021/10/24 |
-|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) | ✔✔✔❌  |   583 / 4181   | 2021/10/31 |
+|   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) |  ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
+|   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌ |  2032 / 4658   | 2021/10/24 |
+|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) |  ✔✔✔❌  |   583 / 4181   | 2021/10/31 |
 
 ## My Coding Record
 
@@ -168,6 +168,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     123      |        maxProfit         |    ---     |        [AC](./code/Solution_0123_maxProfit.py)         | 2021/09/26  |      ---       |        ---        |
 |     126      |       findLadders        |    Hard    |       [AC](./code/Solution_0126_findLadders.py)        | 2021/10/18  |      BFS       |       ★★☆☆☆       |
 |     127      |       ladderLength       |    Hard    |       [AC](./code/Solution_0127_ladderLength.py)       | 2021/10/18  |      BFS       |       ★★☆☆☆       |
+|     128      |    longestConsecutive    |   Medium   |    [AC](./code/Solution_0128_longestConsecutive.py)    | 2021/11/03  |   Union Find   |       ★★☆☆☆       |
 |     144      |    preorderTraversal     |    ---     |    [AC](./code/Solution_0144_preorderTraversal.py)     | 2021/09/03  |      ---       |        ---        |
 |     145      |    postorderTraversal    |    ---     |    [AC](./code/Solution_0145_postorderTraversal.py)    | 2021/09/04  |      ---       |        ---        |
 |     154      |         findMin          |    ---     |         [AC](./code/Solution_0154_findMin.py)          | 2021/08/28  |      ---       |        ---        |
