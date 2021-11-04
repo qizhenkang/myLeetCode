@@ -23,7 +23,7 @@ I am trying to participate in the _LeetCode_ weekly contest.
 |   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌  |  1317 / 4260   | 2021/10/10 |
 |   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) |  ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
 |   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌ |  2032 / 4658   | 2021/10/24 |
-|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) |  ✔✔✔❌  |   583 / 4181   | 2021/10/31 |
+|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) |  ✔✔❌❌  |   1415 / 4181   | 2021/10/31 |
 
 ## My Coding Record
 
@@ -241,10 +241,10 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     2045     |       secondMinimum        |    Hard    |       [AC](./code/Solution_2045_secondMinimum.py)        | 2021/10/19  |      BFS       |       ☆☆☆☆☆       |
 |     2047     |      countValidWords       |    Easy    |      [AC](./code/Solution_2047_countValidWords.py)       | 2021/10/24  |     String     |       ★★★★☆       |
 |     2048     |    nextBeautifulNumber     |   Medium   |    [WA](./code/Solution_2048_nextBeautifulNumber.py)     | 2021/10/24  |     Array      |       ☆☆☆☆☆       |
-|     2057     |       smallestEqual        |    Easy    |       [AC](./code/Solution_2057_smallestEqual.py)        | 2021/11/04  |      ---       |        ---        |
-|     2058     | nodesBetweenCriticalPoints |   Medium   | [AC](./code/Solution_2058_nodesBetweenCriticalPoints.py) | 2021/11/04  |      ---       |        ---        |
-|     2059     |     minimumOperations      |   Medium   |     [AC](./code/Solution_2059_minimumOperations.py)      | 2021/11/04  |      ---       |        ---        |
-|     2060     |       possiblyEquals       |    Hard    |       [WA](./code/Solution_2060_possiblyEquals.py)       | 2021/11/04  |      ---       |        ---        |
+|     2057     |       smallestEqual        |    Easy    |       [AC](./code/Solution_2057_smallestEqual.py)        | 2021/10/31  |     Array      |       ★★★★☆       |
+|     2058     | nodesBetweenCriticalPoints |   Medium   | [AC](./code/Solution_2058_nodesBetweenCriticalPoints.py) | 2021/10/31  |  Linked List   |       ★★★★☆       |
+|     2059     |     minimumOperations      |   Medium   |     [AC](./code/Solution_2059_minimumOperations.py)      | 2021/11/04  |      BFS       |       ★★★☆☆       |
+|     2060     |       possiblyEquals       |    Hard    |       [WA](./code/Solution_2060_possiblyEquals.py)       | 2021/10/31  |       DP       |       ☆☆☆☆☆       |
 | X069[^offer] |  peakIndexInMountainArray  |    Easy    |  [AC](./code/Solution_X069_peakIndexInMountainArray.py)  | 2021/10/14  |     Search     |       ★★★★☆       |
 
 [^why]: When I entered my Ph.D. career, I found that what I love is not researching, but programming.
