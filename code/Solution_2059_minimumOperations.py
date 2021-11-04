@@ -35,6 +35,7 @@ class Solution:
                     num1 = x+n
                     num2 = x-n
                     num3 = x^n
+                    # print(num1,num2,num3)
                     if num1 not in memo:
                         if num1 > 1000 or num1 <0:
                             if num1 == goal:
@@ -46,7 +47,7 @@ class Solution:
                             stack.append(num1)
                             memo.add(num1)
                     if num2 not in memo:
-                        if num2 > 1000 or num1 <0:
+                        if num2 > 1000 or num2 <0:
                             if num2 == goal:
                                 # print('goal2',depth)
                                 result = depth + 1
@@ -85,6 +86,7 @@ if __name__ == '__main__':
     # start = 2
     # goal = 12
     
+    
     nums = [3,5,7]
     start = 0
     goal = -4
@@ -100,6 +102,10 @@ if __name__ == '__main__':
     nums = [-405,274,-344,577,-910,-936,323,-699,-952,-848,568,675,5,-209,-170,200,237,707,279,-760,248,390,531,752,62,53,-60,791,-807,-493,812,-995,-745,-528,776,437,-306,-237,-333,-845,-858,-71,-198,360,-495,-416,15,-393,-935,-117,-776,-964,127,909,-983,586,855,-563,-570,-394,717,-527,-624,441,47,446,481,297,268,764,-918,969,203,461,-937,293]
     start = 438
     goal = 927
+    
+    nums = [-783,696]
+    start = 43
+    goal = 161
     
     result = solu.minimumOperations(nums,start,goal)
 

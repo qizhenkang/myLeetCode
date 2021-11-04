@@ -18,25 +18,34 @@ from pathlib import Path
 
 class MyListFunction:
     
-    def getListStr(self):
+    def getNewfileName(self):
         '''
         获取最新保存的文件，记录题号、题名
         '''
         dirpath = '.\\code\\'
         # ositems = os.listdir(dirpath)
         paths = sorted(Path(dirpath).iterdir(), key=os.path.getmtime)
+        # print(paths)
         # 获取最新的
         fileName = str(paths[-1])
         if fileName[:14] != 'code\Solution_':
-            print('ERROR: ', fileName[:14])
+            print('ERROR: ', fileName)
             return ''
         # 显示当前名称
         print(fileName)
+        fileName = fileName[5:]
+        return fileName
         
+        
+        
+    
+    def getListStr(self,fileName):
         # 分割字符串
         info = re.split(r'_|\.',fileName)
+        # print(info)
         # 获取信息
         number,name =  str(int(info[1])),info[2]
+        
         dateTime = time.localtime()
         mday = str(dateTime.tm_mday) if dateTime.tm_mday >= 10 else  '0'+str(dateTime.tm_mday)
         date = str(dateTime.tm_year) + '/' +  str(dateTime.tm_mon) + '/' + mday
@@ -57,7 +66,13 @@ class MyListFunction:
 if __name__ == '__main__':
     myfunc = MyListFunction()
     
-    result = myfunc.getListStr()
+    fileName = myfunc.getNewfileName()
+    fileName = 'Solution_2057_smallestEqual.py'
+    # fileName = 'Solution_2058_nodesBetweenCriticalPoints.py'
+    # fileName = 'Solution_2059_minimumOperations.py'
+    # fileName = 'Solution_2060_possiblyEquals.py'
+    
+    result = myfunc.getListStr(fileName)
     
     print(result)
     
