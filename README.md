@@ -23,7 +23,7 @@ I am trying to participate in the _LeetCode_ weekly contest.
 |   1    | [Weekly Contest 262](https://leetcode.com/contest/weekly-contest-262/) | ✔✔❌❌  |  1317 / 4260   | 2021/10/10 |
 |   2    | [Weekly Contest 263](https://leetcode.com/contest/weekly-contest-263/) |  ✔✔✔❌  |   743 / 4571   | 2021/10/17 |
 |   3    | [Weekly Contest 264](https://leetcode.com/contest/weekly-contest-264/) | ✔❌❌❌ |  2032 / 4658   | 2021/10/24 |
-|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) |  ✔✔❌❌  |   1415 / 4181   | 2021/10/31 |
+|   4    | [Weekly Contest 265](https://leetcode.com/contest/weekly-contest-265/) | ✔✔❌❌  |  1415 / 4181   | 2021/10/31 |
 
 ## My Coding Record
 
@@ -228,6 +228,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     869      |     reorderedPowerOf2      |   Medium   |     [AC](./code/Solution_0869_reorderedPowerOf2.py)      | 2021/10/28  |      Hash      |       ★★★★☆       |
 |     1009     |     bitwiseComplement      |    Easy    |     [AC](./code/Solution_1009_bitwiseComplement.py)      | 2021/10/18  |      Bit       |       ★★★☆☆       |
 |     1143     |  longestCommonSubsequence  |    ---     |  [AC](./code/Solution_1143_longestCommonSubsequence.py)  | 2021/09/25  |      ---       |        ---        |
+|     1218     |     longestSubsequence     |   Medium   |     [AC](./code/Solution_1218_longestSubsequence.py)     | 2021/11/05  |       DP       |       ★☆☆☆☆       |
 |     1221     |    balancedStringSplit     |    ---     |    [AC](./code/Solution_1221_balancedStringSplit.py)     | 2021/09/07  |      ---       |        ---        |
 |     1436     |          destCity          |    ---     |          [AC](./code/Solution_1436_destCity.py)          | 2021/10/01  |      ---       |        ---        |
 |     1894     |       chalkReplacer        |    ---     |       [AC](./code/Solution_1894_chalkReplacer.py)        | 2021/09/10  |      ---       |        ---        |

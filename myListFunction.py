@@ -32,7 +32,7 @@ class MyListFunction:
             print('ERROR: ', fileName)
             return ''
         # 显示当前名称
-        print(fileName)
+        # print(fileName)
         fileName = fileName[5:]
         return fileName
         
@@ -67,10 +67,15 @@ if __name__ == '__main__':
     myfunc = MyListFunction()
     
     fileName = myfunc.getNewfileName()
-    fileName = 'Solution_2057_smallestEqual.py'
-    # fileName = 'Solution_2058_nodesBetweenCriticalPoints.py'
-    # fileName = 'Solution_2059_minimumOperations.py'
-    # fileName = 'Solution_2060_possiblyEquals.py'
+    
+
+    # a = 'Solution_2057_smallestEqual.py'
+    # b = 'Solution_2058_nodesBetweenCriticalPoints.py'
+    # c = 'Solution_2059_minimumOperations.py'
+    # d = 'Solution_2060_possiblyEquals.py'
+    # myName = [a,b,c,d]
+    # for i in myName:
+    #     print(myfunc.getListStr(i))
     
     result = myfunc.getListStr(fileName)
     
