@@ -23,6 +23,7 @@ class Solution:
         # 哈希表dp，有点意思，第一次见到
         # 你看这里的用法，int一下就把初始化为0了
         dp = defaultdict(int)
+
         for v in arr:
             # 这里自然地考虑了子序列，之前没出现过就是0，出现过就+1
             dp[v] = dp[v - difference] + 1
