@@ -184,6 +184,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     237      |         deleteNode         |    Easy    |         [AC](./code/Solution_0237_deleteNode.py)         | 2021/11/02  |  Linked List   |       ★★★★☆       |
 |     240      |        searchMatrix        |   Medium   |        [AC](./code/Solution_0240_searchMatrix.py)        | 2021/10/25  |     Search     |       ★★★☆☆       |
 |     260      |        singleNumber        |   Medium   |        [AC](./code/Solution_0260_singleNumber.py)        | 2021/10/30  |     Array      |       ★★★☆☆       |
+|     268      |       missingNumber        |    Easy    |       [AC](./code/Solution_0268_missingNumber.py)        | 2021/11/06  |     Array      |       ★★☆☆☆       |
 |     273      |       numberToWords        |    Hard    |       [AC](./code/Solution_0273_numberToWords.py)        | 2021/10/11  |     String     |       ★★★★★       |
 |     279      |         numSquares         |    ---     |         [AC](./code/Solution_0279_numSquares.py)         | 2021/09/10  |      ---       |        ---        |
 |     282      |        addOperators        |    Hard    |        [AC](./code/Solution_0282_addOperators.py)        | 2021/10/16  |  Backtracking  |       ★☆☆☆☆       |
