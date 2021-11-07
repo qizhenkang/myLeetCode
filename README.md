@@ -218,6 +218,7 @@ Meanwhile, the classification and the self-rating score on the problem are recor
 |     524      |      findLongestWord       |    ---     |      [AC](./code/Solution_0524_findLongestWord.py)       | 2021/08/21  |      ---       |        ---        |
 |     575      |     distributeCandies      |    Easy    |     [AC](./code/Solution_0575_distributeCandies.pyy)     | 2021/11/01  |     Array      |       ★★★★★       |
 |     583      |        minDistance         |    ---     |        [AC](./code/Solution_0583_minDistance.py)         | 2021/09/25  |      ---       |        ---        |
+|     598      |          maxCount          |    Easy    |          [AC](./code/Solution_0598_maxCount.py)          | 2021/11/07  |     Array      |       ★★★★★       |
 |     600      |        findIntegers        |    ---     |        [AC](./code/Solution_0600_findIntegers.py)        | 2021/09/11  |      ---       |        ---        |
 |     633      |       judgeSquareSum       |    ---     |       [AC](./code/Solution_0633_judgeSquareSum.py)       | 2021/08/21  |      ---       |        ---        |
 |     638      |       shoppingOffers       |   Medium   |       [AC](./code/Solution_063_shoppingOffers.py)        | 2021/10/24  |  Backtracking  |       ★★★☆☆       |
