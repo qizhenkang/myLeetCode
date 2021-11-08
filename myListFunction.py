@@ -5,12 +5,6 @@ Created on Wed Nov  3 16:47:33 2021
 @author: Zhenkang
 """
 
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Sep 25 15:58:46 2021
-
-@author: qizhe
-"""
 import re
 import os, os.path, time
 from pathlib import Path
