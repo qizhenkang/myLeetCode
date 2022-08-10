@@ -6,12 +6,50 @@ Created on Tue Sep  7 19:13:48 2021
 """
 
 # Definition for a binary tree node.
+from typing import List
+
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
         self.left = left
         self.right = right
+
+    def levelOrder(self) -> List[List['TreeNode']]:
+        """
+        levelOrder _summary_
+
+        二叉树的层序遍历 
+            含 None
+
+        Returns:
+            _type_: _description_
+        """
+
+        result: List[List[TreeNode]] = []
+        queue: List[TreeNode] = [self]
+
+        while any(queue):
+
+            level: List[int] = []
+            for _ in range(len(queue)):
+                # 本层出队
+                node = queue.pop(0)
+                if node:
+                    level.append(node.val)
+                    queue.append(node.left)
+                    queue.append(node.right)
+                else:
+                    level.append(None)
+                    queue.append(None)
+                    queue.append(None)
+            result.append(level)
+
+        return result
+
+
 class Solution:
+
     def levelOrder(self, root: TreeNode):
         """
         用递归的思路实现了深度优先遍历，完成了层次遍历
@@ -28,21 +66,21 @@ class Solution:
             DESCRIPTION.
 
         """
-        def levelOrderDFS(root,depth):
+        def levelOrderDFS(root, depth):
             """
             深度优先搜索方案
             """
             if not root:
                 return
-            
+
             if len(result) <= depth:
                 result.append([root.val])
             else:
                 result[depth].append(root.val)
-            
-            levelOrderDFS(root.left,depth+1)
-            levelOrderDFS(root.right,depth+1)
-        
+
+            levelOrderDFS(root.left, depth+1)
+            levelOrderDFS(root.right, depth+1)
+
         def levelOrderBFS(root):
             """
             广度优先搜索方案
@@ -62,19 +100,18 @@ class Solution:
                         queue.append(tempnode.left)
                     if tempnode.right:
                         queue.append(tempnode.right)
-                    
-            
-            
+
             return
-        
+
         if not root:
             return []
         result = []
         # depth = 0
         # levelOrderDFS(root,depth)
         levelOrderBFS(root)
-        
+
         return result
+
 
 if __name__ == '__main__':
     solu = Solution()
