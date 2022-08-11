@@ -11,7 +11,6 @@ Copyright © 2022. All rights reserved.
 class Solution:
     def reformat(self, s: str) -> str:
 
-        numberlist = "0123456789"
         numbers = []
         alphas = []
         for i in s:
