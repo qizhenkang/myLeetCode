@@ -35,10 +35,10 @@ class Solution:
             n_max2 = nums[0]
 
         for n in nums[2:]:
-            if n >= n_max1:
+            if n > n_max1:
                 n_max2 = n_max1
                 n_max1 = n
-            elif n_max2 <= n and n < n_max1:
+            elif n_max2 < n:
                 n_max2 = n
 
         return (n_max1-1) * (n_max2-1)
