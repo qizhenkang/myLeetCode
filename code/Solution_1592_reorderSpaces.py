@@ -30,6 +30,9 @@ class Solution:
             str: _description_
         """
 
+        # 前面搞得太复杂了
+        # 可以用 split 和 count 直接获得单词和空格数量
+
         space_flag = True
         word_list = []
         _start = 0
@@ -57,8 +60,8 @@ class Solution:
             result = word_list[0] + ' '*space_num
             return result
 
-        space_per = space_num // word_space_num
-        space_end = space_num - space_per * word_space_num
+        # 除数余数商
+        space_per, space_end = divmod(space_num, len(word_list) - 1)
 
         # print(space_num, word_space_num, space_end)
 
