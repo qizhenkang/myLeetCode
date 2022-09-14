@@ -19,6 +19,8 @@ class Solution:
 
         15 mins 2 次通过 思想是对的，第二个指针应该从小开始算，测试算例没有构造好
 
+        看了答案，竟然最大8位数 直接遍历只有 C[8,2] = 28 种可能性
+
         Args:
             num (int): _description_
 
