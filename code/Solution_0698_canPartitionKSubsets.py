@@ -43,7 +43,9 @@ class Solution:
             return False
         n = len(nums)
 
-        @cache
+        # @cache
+        # 这里不 cache 会超时
+        # cache 会报错 可能是 python 版本的问题
         def dfs(s, p):
             if s == 0:
                 return True
